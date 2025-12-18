@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //creating a class with a name YardsToMiles to convert distance from feet to yards and miles
-public class YardsToMiles {
+public class YardsAndMiles {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter distance in feet:");
