@@ -31,18 +31,31 @@ BridgeLabz-Training/
 
 ---
 
-## Week 2: Object-Oriented Programming
+### 📅 Day 2 – Git Practice & Basic Java Programs
+**(Date: 17-Dec-2025)**
 
-### 📅 Day 6 – Java Methods Practice
-**(Date: 22-Dec-2025)**
-
-- Practiced user-defined methods: creation, multiple reuse, and dynamic parameters
-- Explored recursive methods, static methods, and `java.lang.Math` library 
-- Used methods repeatedly to enhance modularity and code clarity
-- Applied best practices: proper naming for variables/methods/classes, structured programs  
+- Practiced Git workflow to understand commits and version control.
+- Solved basic Java programs to understand syntax and structure.
+- Practiced adding, committing, and pushing Java files to GitHub.
 
 🔗 **Code Link:**  
-👉 [Day 6 – Java Methods Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+👉 [Day 2 – Basic Java Programs](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-prerequisites)
 
 ---
+
+### 📅 Day 3 – Programming Elements in Java
+**(Date: 18-Dec-2025)**
+
+- Studied Java programming elements:
+  - Variables and data types
+  - Operators
+  - User input and output
+- Solved practice problems based on programming elements.
+- Committed and pushed solutions to the repository.
+
+🔗 **Code Link:**  
+👉 [Day 3 – Programming Elements](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+
+---
+
 
