@@ -84,5 +84,18 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 6 – Java Methods Practice
+**(Date: 22-Dec-2025)**
+
+- Practiced user-defined methods: creation, multiple reuse, and dynamic parameters
+- Explored recursive methods, static methods, and `java.lang.Math` library 
+- Used methods repeatedly to enhance modularity and code clarity
+- Applied best practices: proper naming for variables/methods/classes, structured programs  
+
+🔗 **Code Link:**  
+👉 [Day 6 – Java Methods Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+
+---
+
 
 
