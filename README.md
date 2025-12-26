@@ -97,5 +97,17 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 7 – Java Strings Practice
+**(Date: 23-Dec-2025)**
+
+- Practiced Java strings: creation, escape sequences, and input handling  
+- Explored string arrays, passing strings as method parameters, and built-in String class methods  
+- Learned ASCII codes and exception handling: checked, unchecked, and `RuntimeException`  
+- Applied best practices: proper naming for variables/methods/classes, modular methods, meaningful program structure  
+
+🔗 **Code Link:**  
+👉 [Day 7 – Java Strings Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
+
+---
 
 
