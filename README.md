@@ -139,3 +139,15 @@ BridgeLabz-Training/
 👉 [Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
+
+### 📅 Day 10 – Daily Practice
+**(Date: 27-Dec-2025)**
+
+- Practised LeetCode problems, including Isomorphic Strings, Reverse String, Single Number, and Move Zeros
+- Focused on improving logic building, array manipulation, string handling, and bitwise concepts
+- Code committed successfully with consistent daily practice
+
+🔗 **Code Link:**  
+👉 [Leetcode Practice Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/Leet-code-codebase)
+
+---
