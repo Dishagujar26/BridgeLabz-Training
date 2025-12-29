@@ -12,3 +12,16 @@
 👉[OOPs – Classes & Objects Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/classandobject)
 
 ---
+
+### 📅 Day 2 – Constructors, Instance Variables, Methods & Access Modifiers
+**(Date: 27-Dec-2025)**
+
+- Learned the concept of constructors and their types: `default`, `parameterised` and `copy` constructors
+- Learned about class instance variables and instance methods
+- Explored access modifiers: `public`, `private`, `protected`, and `default` to control data visibility
+- Implemented Java programs demonstrating constructor usage, instance variables, methods, and access control
+
+🔗**Code Link:**
+👉[Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
+
+---
