@@ -25,3 +25,16 @@
 👉[Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
 
 ---
+
+### 📅 Day 3 – Static, this, final & instanceof
+**(Date: 29-Dec-2025)**
+
+- Learned how to use `static` for shared values and utility methods to reduce memory usage and avoid redundancy
+- Leveraged `this` keyword to avoid ambiguity while initialising `instance variables`
+- Understood the use of `final variables` for constants and identifiers that should not change
+- Used `instanceof` for safe type-checking and to prevent runtime errors during type casting
+
+🔗**Code Link:**
+👉 [Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/keywords)
+
+---
