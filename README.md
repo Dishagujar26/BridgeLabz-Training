@@ -151,3 +151,20 @@ BridgeLabz-Training/
 👉 [Leetcode Practice Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/Leet-code-codebase)
 
 ---
+
+### 📅 Day 11 – Daily Practice
+**(Date: 29-Dec-2025)**
+
+- Practised scenario-based Java programs, including:
+   - Parking Lot Gate System
+   - The Number Guessing Game
+   - Shopkeeper’s Discount Dashboard
+   - School Bus Attendance System
+   - Phone Recharge Simulator
+- Focused on OOP design, conditional logic, loops, and user interaction
+- Code committed successfully with consistent daily practice
+
+🔗**Code Link:**
+👉[Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
