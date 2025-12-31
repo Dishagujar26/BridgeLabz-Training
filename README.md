@@ -168,3 +168,36 @@ BridgeLabz-Training/
 👉[Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
+
+### 📅 Day 12 – Daily Practice
+**(Date: 30-Dec-2025)**
+
+- Practised scenario-based Java programs, including:
+  - Movie Ticket Booking App
+  - Rohan’s Library Reminder App
+  - Fitness Challenge Tracker
+  - Temperature Logger System
+  - Train Reservation System
+- Focused on conditional logic, switch–case with if, loops, and clean program structure
+- Improved input handling, readability, and real-world problem modelling
+
+🔗**Code Link:**
+👉[Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
+
+### 📅 Day 13 – Daily Practice
+**(Date: 31-Dec-2025)**
+
+- Practised scenario-based Java programs, including:
+  - Bus Route Distance Tracker
+  - Currency Exchange Kiosk
+  - Digital Watch Simulation
+  - Festival Lucky Draw
+  - Online Quiz Application
+- Practised conditional logic, loops, and switch–case, with emphasis on clean structure, proper input handling, and real-world logic
+
+🔗**Code Link:**
+👉[Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
