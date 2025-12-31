@@ -123,7 +123,7 @@ BridgeLabz-Training/
 ---
 
 ### 📅 Day 9 – OOPs, POPs, Classes & Objects
-**(Date: 25-Dec-2025)**
+**(Date: 26-Dec-2025)**
 
 - Learned OOPs and POPs concepts and understood why Object-Oriented Programming is preferred over Procedural Programming
 - Studied classes and objects using a real-world Food Delivery App example to model data and behaviour
