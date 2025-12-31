@@ -195,7 +195,7 @@ BridgeLabz-Training/
   - Digital Watch Simulation
   - Festival Lucky Draw
   - Online Quiz Application
--Practised conditional logic, loops, and switch–case, with emphasis on clean structure, proper input handling, and real-world logic
+- Practised conditional logic, loops, and switch–case, with emphasis on clean structure, proper input handling, and real-world logic
 
 🔗**Code Link:**
 👉[Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
