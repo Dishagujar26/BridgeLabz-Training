@@ -50,3 +50,15 @@
 👉 [Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/objectmodeling)
 
 ---
+
+### 📅 Day 5 – Inheritance in Java
+**(Date: 31-Dec-2025)**
+
+- Learned `Single`, `Multilevel`, and `Hierarchical` inheritance using classes to reuse and extend common behaviour
+- Understood that `Multiple inheritance` is not supported with classes in Java due to `ambiguity` (diamond problem)
+- Implemented `Hybrid` inheritance using `interfaces`, combining extends and implements for multiple behaviours
+
+🔗**Code Link:**
+👉 [Inheritance Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/inheritance)
+
+---
