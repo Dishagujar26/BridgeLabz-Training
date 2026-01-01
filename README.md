@@ -38,3 +38,15 @@
 👉 [Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/keywords)
 
 ---
+
+### 📅 Day 4 – Object-Oriented Design Principles
+**(Date: 30-Dec-2025)**
+
+- Explored core OOP design principles with a focus on `object modelling` concepts
+- Studied Class Diagrams, Object Diagrams, and Sequence Diagrams in detail
+- Understood and compared relationships: `Association`, `Aggregation`, `Composition`, and `Communication`
+
+🔗**Code Link:**
+👉 [Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/objectmodeling)
+
+---
