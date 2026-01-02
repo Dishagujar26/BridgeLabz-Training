@@ -158,8 +158,6 @@ BridgeLabz-Training/
 👉 [Constructors & Access Modifiers](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
 👉 [Leetcode Practice Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/Leet-code-codebase)
 
----
-
 ## Week 2: Worked on Java OOPs Practice Problems and Scenario-based Problems
 
 ### 📅 Day 11 – Inbuilt Keywords, Scenario-based and Leetcode Problems
