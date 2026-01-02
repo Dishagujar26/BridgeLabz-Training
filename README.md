@@ -122,28 +122,103 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 9 – Java OOPs, POPs, Classes & Objects
+### 📅 Day 9 – Java OOPs Basics, Scenario-based and Leetcode Problems
 **(Date: 26-Dec-2025)**
 
 - Learned OOPs and POPs concepts and understood why Object-Oriented Programming is preferred over Procedural Programming
 - Studied classes and objects using a real-world Food Delivery App example to model data and behaviour
 - Followed best programming practices such as encapsulation, meaningful naming conventions, constructors, and use of comments
 - Implemented an OOP-based program demonstrating object creation, method usage, and memory allocation
+- Scenario-based Problems:
+  - ElectionBoothManager
+  - MetroSmartCard
+  - RajResult
+  - BMIProgram
+  - CoffeeCounter
+- LeetCode problems solved, including Add Digits, Missing Number, Fibonacci and Anagram Check
 
 🔗 **Code Link:**
 👉 [OOPs – Classes & Objects Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/classandobject)
+👉 [Leetcode Practice Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/Leet-code-codebase)
+👉 [Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
 
-### 📅 Day 10 – Java Constructors, Instance Variables, Methods & Access Modifiers
+### 📅 Day 10 – Java Constructors, Instance Variables, Methods & Access Modifiers and Leetcode Problems
 **(Date: 27-Dec-2025)**
 
 - Learned the concept of constructors and their types: `default`, `parameterised` and `copy` constructors
 - Learned about class instance variables and instance methods
 - Explored access modifiers: `public`, `private`, `protected`, and `default` to control data visibility
 - Implemented Java programs demonstrating constructor usage, instance variables, methods, and access control
+- Practised LeetCode problems, including Isomorphic Strings, Reverse String, Single Number, and Move Zeros
+- Focused on improving logic building, array manipulation, string handling, and bitwise concepts
 
 🔗**Code Link:**
-👉[Constructors & Access Modifiers](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
+👉 [Constructors & Access Modifiers](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
+👉 [Leetcode Practice Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/Leet-code-codebase)
+
+---
+
+## Week 2: Worked on Java OOPs Practice Problems and Scenario-based Problems
+
+### 📅 Day 11 – Inbuilt Keywords, Scenario-based and Leetcode Problems
+**(Date: 29-Dec-2025)**
+
+- Learned how to use `static` for shared values and utility methods to reduce memory usage and avoid redundancy
+- Leveraged `this` keyword to avoid ambiguity while initialising `instance variables`
+- Understood the use of `final variables` for constants and identifiers that should not change
+- Used `instanceof` for safe type-checking and to prevent runtime errors during type casting
+- Practised scenario-based Java programs, including:
+   - Parking Lot Gate System
+   - The Number Guessing Game
+   - Shopkeeper’s Discount Dashboard
+   - School Bus Attendance System
+   - Phone Recharge Simulator
+- Focused on OOP design, conditional logic, loops, and user interaction
+
+🔗**Code Link:**
+👉 [Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/keywords)
+👉 [Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
+
+### 📅 Day 12 – Object-Oriented Design Principles and Scenario-based Problems 
+**(Date: 30-Dec-2025)**
+
+- Explored core OOP design principles with a focus on `object modelling` concepts
+- Studied Class Diagrams, Object Diagrams, and Sequence Diagrams in detail
+- Understood and compared relationships: `Association`, `Aggregation`, `Composition`, and `Communication`
+- Practised scenario-based Java programs, including:
+  - Movie Ticket Booking App
+  - Rohan’s Library Reminder App
+  - Fitness Challenge Tracker
+  - Temperature Logger System
+  - Train Reservation System
+- Focused on conditional logic, switch–case with if, loops, and clean program structure
+
+🔗**Code Link:**
+👉 [Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/objectmodeling)
+👉 [Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
+
+### 📅 Day 13 – Java Inheritance and Scenario-based Problems 
+**(Date: 31-Dec-2025)**
+
+- Learned `Single`, `Multilevel`, and `Hierarchical` inheritance using classes to reuse and extend common behaviour
+- Understood that `Multiple inheritance` is not supported with classes in Java due to `ambiguity` (diamond problem)
+- Implemented `Hybrid` inheritance using `interfaces`, combining extends and implements for multiple behaviours
+- Practised scenario-based Java programs, including:
+  - Bus Route Distance Tracker
+  - Currency Exchange Kiosk
+  - Digital Watch Simulation
+  - Festival Lucky Draw
+  - Online Quiz Application
+- Practised conditional logic, loops, and switch–case, with emphasis on clean structure, proper
+
+🔗**Code Link:**
+👉 [Inheritance Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/inheritance)
+👉 [Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
