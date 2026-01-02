@@ -62,3 +62,17 @@
 👉 [Inheritance Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/inheritance)
 
 ---
+
+### 📅 Day 6 – Encapsulation, Polymorphism, Abstract Classes & Interfaces
+**(01-Jan-2026)**
+
+- Learned `Encapsulation` to protect data using private fields with controlled access via getters/setters
+- Implemented a Bank Account System to enforce validation for deposits, withdrawals, and balances
+- Practised `Polymorphism`: method `overloading` (compile-time) and `overriding` (runtime)
+- Used `abstract classes` & `interfaces` for flexible, loosely coupled designs with dynamic behaviour
+- Understood casting & instanceof for safe object handling in polymorphic scenarios
+
+🔗**Code Link:** 
+👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/inheritance)
+
+---
