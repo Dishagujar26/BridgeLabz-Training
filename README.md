@@ -82,7 +82,7 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Day 5 – Java Arrays Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Arrays)
 
-## Week 2: Object-Oriented Programming
+## Week 2: Worked on Strings, Extra Problems and Oops concepts
 
 ### 📅 Day 6 – Java Methods Practice
 **(Date: 22-Dec-2025)**
@@ -122,7 +122,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 9 – OOPs, POPs, Classes & Objects
+### 📅 Day 9 – Java OOPs, POPs, Classes & Objects
 **(Date: 26-Dec-2025)**
 
 - Learned OOPs and POPs concepts and understood why Object-Oriented Programming is preferred over Procedural Programming
@@ -132,5 +132,18 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**
 👉 [OOPs – Classes & Objects Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/classandobject)
+
+---
+
+### 📅 Day 10 – Java Constructors, Instance Variables, Methods & Access Modifiers
+**(Date: 27-Dec-2025)**
+
+- Learned the concept of constructors and their types: `default`, `parameterised` and `copy` constructors
+- Learned about class instance variables and instance methods
+- Explored access modifiers: `public`, `private`, `protected`, and `default` to control data visibility
+- Implemented Java programs demonstrating constructor usage, instance variables, methods, and access control
+
+🔗**Code Link:**
+👉[Constructors & Access Modifiers](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
 
 ---
