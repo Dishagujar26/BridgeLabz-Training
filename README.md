@@ -50,3 +50,29 @@
 👉 [Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/objectmodeling)
 
 ---
+
+### 📅 Day 5 – Inheritance in Java
+**(Date: 31-Dec-2025)**
+
+- Learned `Single`, `Multilevel`, and `Hierarchical` inheritance using classes to reuse and extend common behaviour
+- Understood that `Multiple inheritance` is not supported with classes in Java due to `ambiguity` (diamond problem)
+- Implemented `Hybrid` inheritance using `interfaces`, combining extends and implements for multiple behaviours
+
+🔗**Code Link:**
+👉 [Inheritance Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/inheritance)
+
+---
+
+### 📅 Day 6 – Encapsulation, Polymorphism, Abstract Classes & Interfaces
+**(01-Jan-2026)**
+
+- Learned `Encapsulation` to protect data using private fields with controlled access via getters/setters
+- Implemented a Bank Account System to enforce validation for deposits, withdrawals, and balances
+- Practised `Polymorphism`: method `overloading` (compile-time) and `overriding` (runtime)
+- Used `abstract classes` & `interfaces` for flexible, loosely coupled designs with dynamic behaviour
+- Understood casting & instanceof for safe object handling in polymorphic scenarios
+
+🔗**Code Link:** 
+👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/inheritance)
+
+---
