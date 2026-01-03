@@ -71,7 +71,7 @@
 - Practised `Polymorphism`: method `overloading` (compile-time) and `overriding` (runtime)
 - Used `abstract classes` & `interfaces` for flexible, loosely coupled designs with dynamic behaviour
 - Understood casting & instanceof for safe object handling in polymorphic scenarios
-- Practised oops-based scenario problems including
+- Practised oops-based scenario problems, including
    - Bank Account
    - Online Shopping Cart 
 
@@ -81,4 +81,19 @@
 
 ---
 
+### 📅 Day 7 – Daily Scenario-based Problems Practice
+**(Date: 02-Jan-2026)**
 
+- Practised oops-based scenario problems, including
+   - E-Wallet Application
+   - Smart Home Automation System
+   - University Course Enrollment System
+   - Vehicle Rental Application
+   - Hospital Patient Management System
+- Applied core OOP concepts to real-world scenarios.
+- Improved class design and `problem-to-code mapping`.
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day2)
+
+---
