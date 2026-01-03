@@ -220,3 +220,18 @@ BridgeLabz-Training/
 👉 [Scenario-based Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
+
+### 📅 Day 14 – Core Oops Concepts and Practised Oops-based Scenario problems
+**(Date: 01-Jan-2026)**
+
+- Learned Encapsulation for data protection and Polymorphism (overloading & overriding) for dynamic behaviour
+- Implemented a Bank Account System with validations and used abstract classes & interfaces for a flexible, loosely coupled design
+- Practised oops-based scenario problems, including
+   - Bank Account
+   - Online Shopping Cart 
+
+🔗**Code Link:** 
+👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/encapsulation)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day1)
+
+---
