@@ -97,3 +97,16 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day2)
 
 ---
+
+### 📅 Day 8 – Daily Scenario-based Problems Practice
+**(Date: 03-Jan-2026)**
+
+- Practised oops-based scenario problems, including
+   - MyBank – Managing Customer Accounts
+   - CabbyGo – A Ride-Hailing App in the Making 
+- Applied core OOP concepts to real-world scenarios.
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day3)
+
+---
