@@ -158,7 +158,7 @@ BridgeLabz-Training/
 👉 [Constructors & Access Modifiers](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
 👉 [Leetcode Practice Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/Leet-code-codebase)
 
-## Week 2: Worked on Java OOPs Practice Problems and Scenario-based Problems
+## Week 3: Worked on Java OOPs Practice Problems and Explored DSA
 
 ### 📅 Day 11 – Inbuilt Keywords, Scenario-based and Leetcode Problems
 **(Date: 29-Dec-2025)**
@@ -252,5 +252,22 @@ BridgeLabz-Training/
 🔗**Code Link:** 
 👉 [LinkedList Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/linkedlist)
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day2)
+
+---
+
+### 📅 Day 16 – Explored Stack, Queue, HashMap, Hash Functions and Oops-based Scenario problems
+**(Date: 03-Jan-2026)**
+
+- Implemented and understood core data structures, including Stack, Queue, HashMap, and Hash Functions.
+- Practised Stack (LIFO) and Queue (FIFO) operations, along with real-world use cases like task scheduling and expression evaluation.
+- Also explored HashMap, hashing techniques and the role of hash functions in achieving efficient O(1) average-time data access.
+- Practised oops-based scenario problems, including
+  - CabbyGo – A Ride-Hailing App in the Making
+  - MyBank – Managing Customer Accounts 
+
+🔗**Code Link:** 
+👉[Stack and Queue Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/stackandqueues)
+👉[Hashmap and Hashfunctions Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/hashmapsandfunctions)
+👉[Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day3)
 
 ---
