@@ -255,7 +255,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 16 – Explored Stack, Queue, HashMap, Hash Functions and Oops-based Scenario problems
+### 📅 Day 16 – Explored Stack, Queue, HashMap, Hash Functions and Oops-based Scenario Problems
 **(Date: 03-Jan-2026)**
 
 - Implemented and understood core data structures, including Stack, Queue, HashMap, and Hash Functions.
@@ -269,5 +269,29 @@ BridgeLabz-Training/
 👉[Stack and Queue Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/stackandqueues)
 👉[Hashmap and Hashfunctions Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/hashmapsandfunctions)
 👉[Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day3)
+
+---
+
+## Week 4: Sorting, Searching Algorithms and Oops-based Scenario Problems Practice
+
+### 📅 Day 17 – Sorting algorithms and Oops-based Scenario Problems
+**(Date: 05-Jan-2026)**
+
+- Learned how sorting arranges data in a specific order to improve efficiency
+- `Bubble Sort` repeatedly swaps adjacent elements if they are in the wrong order. Simple but slow.
+- `Selection Sort` selects the minimum element and places it at the correct position.
+- `Insertion Sort` inserts elements into their correct position in a sorted part of the array.
+- `Merge Sort` divides the array and merges sorted halves. Fast and stable.
+- `Quick Sort` uses a pivot to partition the array. Very efficient in practice.
+- `Heap Sort` uses a heap to sort elements. Guaranteed `O(n log n)` time.
+- `Counting Sort` counts element occurrences. Efficient for small value ranges.
+- Practised scenario-based problems
+  - CampusConnect (College Information System)
+  - SwiftCart (Grocery Shopping App)
+- Focused on designing classes, interfaces, and interactions.
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day4)
+👉 [Sorting Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/sorting)
 
 ---
