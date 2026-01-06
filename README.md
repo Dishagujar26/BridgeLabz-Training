@@ -27,3 +27,19 @@
 👉 [HashMap Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/hashmapsandfunctions)
 
 ---
+
+### 📅 Day 3 – Sorting Algorithms
+**(Date: 05-Jan-2026)**
+
+- `Bubble Sort` repeatedly swaps adjacent elements if they are in the wrong order. Simple but slow.
+- `Selection Sort` selects the minimum element and places it at the correct position.
+- `Insertion Sort` inserts elements into their correct position in a sorted part of the array.
+- `Merge Sort` divides the array and merges sorted halves. Fast and stable.
+- `Quick Sort` uses a pivot to partition the array. Very efficient in practice.
+- `Heap Sort` uses a heap to sort elements. Guaranteed `O(n log n)` time.
+- `Counting Sort` counts element occurrences. Efficient for small value ranges.
+
+🔗**Code Link:** 
+👉 [Sorting Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/sorting)
+
+---
