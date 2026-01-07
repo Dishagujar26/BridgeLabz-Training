@@ -110,3 +110,17 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day3)
 
 ---
+
+### 📅 Day 9 – Daily Scenario-based Problems Practice
+**(Date: 05-Jan-2026)**
+
+- Practised OOP-based scenario problems such as
+  - CampusConnect (College Information System)
+  - SwiftCart (Grocery Shopping App)
+- Focused on designing classes, interfaces, and interactions.
+- Applied core OOP concepts like encapsulation, inheritance, polymorphism, and abstraction to model real-world use cases effectively.
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day4)
+
+---
