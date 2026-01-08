@@ -141,3 +141,18 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day5)
 
 ---
+
+### 📅 Day 11 – Daily Scenario-based Problems Practice
+**(Date: 07-Jan-2026)**
+
+- Built Digital Bookstore System to manage books, users, and purchases using OOP principles
+  - ParkEase – Smart Parking Management System
+  - LoanBuddy – Loan Approval Automation
+  - BookBazaar – Digital Bookstore System 
+- Applied classes, constructors, interfaces, access modifiers, and polymorphism
+- Focused on real-world problem modelling and clean, modular Java code
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day6)
+
+---
