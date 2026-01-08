@@ -82,7 +82,7 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Day 5 – Java Arrays Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Arrays)
 
-## Week 2: Worked on Strings, Extra Problems and Oops concepts
+---
 
 ### 📅 Day 6 – Java Methods Practice
 **(Date: 22-Dec-2025)**
@@ -120,7 +120,7 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Day 8 – Extras Practice](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
 
----
+## Week 2: Object-Oriented Programming
 
 ### 📅 Day 9 – Java OOPs Basics, Scenario-based and Leetcode Problems
 **(Date: 26-Dec-2025)**
@@ -158,7 +158,7 @@ BridgeLabz-Training/
 👉 [Constructors & Access Modifiers](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/constructor)
 👉 [Leetcode Practice Problems ](https://github.com/Dishagujar26/BridgeLabz-Training/tree/core-java-practice/Leet-code-codebase)
 
-## Week 3: Worked on Java OOPs Practice Problems and Explored DSA
+---
 
 ### 📅 Day 11 – Inbuilt Keywords, Scenario-based and Leetcode Problems
 **(Date: 29-Dec-2025)**
@@ -234,7 +234,7 @@ BridgeLabz-Training/
 👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/bl/encapsulation)
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day1)
 
----
+## Week 3: Data Structures And Algorithms
 
 ### 📅 Day 15 – Explored DSA, Practised LinkedList and Oops-based Scenario problems
 **(Date: 02-Jan-2026)**
@@ -259,8 +259,8 @@ BridgeLabz-Training/
 **(Date: 03-Jan-2026)**
 
 - Implemented and understood core data structures, including Stack, Queue, HashMap, and Hash Functions.
-- Practised Stack (LIFO) and Queue (FIFO) operations, along with real-world use cases like task scheduling and expression evaluation.
-- Also explored HashMap, hashing techniques and the role of hash functions in achieving efficient O(1) average-time data access.
+- Practised `Stack (LIFO)` and `Queue (FIFO)` operations, along with real-world use cases like task scheduling and expression evaluation.
+- Also explored `HashMap`, `hashing techniques` and the role of `hash functions` in achieving efficient `O(1)` average-time data access.
 - Practised oops-based scenario problems, including
   - CabbyGo – A Ride-Hailing App in the Making
   - MyBank – Managing Customer Accounts 
@@ -271,8 +271,6 @@ BridgeLabz-Training/
 👉[Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day3)
 
 ---
-
-## Week 4: Sorting, Searching Algorithms and Oops-based Scenario Problems Practice
 
 ### 📅 Day 17 – Sorting algorithms and Oops-based Scenario Problems
 **(Date: 05-Jan-2026)**
@@ -293,5 +291,32 @@ BridgeLabz-Training/
 🔗**Code Link:** 
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day4)
 👉 [Sorting Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/sorting)
+
+---
+
+### 📅 Day 18 – Practised StringBuffer, StringBuilder, File Handling & Searching Algorithms and Oops-based Scenario problems
+**(Date: 06-Jan-2026)**
+
+- Learned `StringBuilder` for mutable and fast string operations `(non-synchronised)`
+- Studied `StringBuffer` for thread-safe string manipulation `(synchronised)`
+- Understood differences between String, StringBuilder, and StringBuffer
+- Practised `FileReader` to read data from files using character streams
+- Implemented `Linear Search` to find elements by `sequential traversal`
+- Practised `Binary Search` on sorted data for `efficient searching`
+- Practised oops-based scenario problems, including:
+   - EventEase – Event Management Platform
+   - FitTrack – Your Personal Fitness Tracker
+   - EduMentor – Personalised Learning Platform
+   - PetPal – Virtual Pet Care App
+- Applied core OOP concepts: Encapsulation, Inheritance, Abstraction, Polymorphism
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day5)
+👉 [Binary Search](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/binarysearch)
+👉 [Linear Search](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/linearsearch)
+👉 [String Buffer](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/stringbuffer)
+👉 [String Builder](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/stringbuilder)
+👉 [File Reader](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/filereader)
+👉 [Input Stream Reader](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/inputstreamreader)
 
 ---
