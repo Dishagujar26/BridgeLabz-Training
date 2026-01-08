@@ -1,0 +1,19 @@
+package com.bl.stringbuilder;
+
+import java.util.Scanner;
+
+public class ReverseString {
+	public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the string to reverse");
+       String str = sc.next();
+       
+       StringBuilder sb = new StringBuilder();
+       
+       for(int i=str.length()-1;i>=0;i--) {
+              sb.append(str.charAt(i));
+              
+       }
+       System.out.println("Reverse String: "+ sb.toString());
+	}
+}
