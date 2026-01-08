@@ -43,3 +43,25 @@
 👉 [Sorting Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/sorting)
 
 ---
+
+### 📅 Day 4 – Strings, File Handling & Searching Algorithms
+**(Date: 06-Jan-2026)**
+
+- Learned `StringBuilder` for mutable and fast string operations `(non-synchronised)`
+- Studied `StringBuffer` for thread-safe string manipulation `(synchronised)`
+- Understood differences between String, StringBuilder, and StringBuffer
+- Practised `FileReader` to read data from files using character streams
+- Implemented `Linear Search` to find elements by `sequential traversal`
+- Practised `Binary Search` on sorted data for `efficient searching`
+
+🔗**Code Link:**
+👉 [Binary Search](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/binarysearch)
+👉 [Linear Search](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/linearsearch)
+👉 [String Buffer](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/stringbuffer)
+👉 [String Builder](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/stringbuilder)
+👉 [File Reader](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/filereader)
+👉 [Input Stream Reader](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/inputstreamreader)
+
+---
+
+
