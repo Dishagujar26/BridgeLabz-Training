@@ -64,4 +64,15 @@
 
 ---
 
+### 📅 Day 5 – Algorithm's Runtime Analysis and Big-O Notation
+**(Date: 07-Jan-2026)**
+
+- Compared algorithms and data structures to show how time complexity impacts real performance at scale.
+- Demonstrated why efficient algorithms `(O(log N), O(N log N))` outperform naive ones on large inputs.
+- Evaluated Java core choices (String, I/O streams, recursion vs iteration) for `memory and speed efficiency`
+  
+🔗**Code Link:**
+👉 [Algorithm's Runtime Analysis and Big-O Notation](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/bl/runtimeanalysis)
+
+---
 
