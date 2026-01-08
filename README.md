@@ -124,3 +124,20 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day4)
 
 ---
+
+### 📅 Day 10 – Daily Scenario-based Problems Practice
+**(Date: 06-Jan-2026)**
+
+- Implemented real-world applications:
+  - EventEase – Event Management Platform
+  - FitTrack – Your Personal Fitness Tracker
+  - EduMentor – Personalised Learning Platform
+  - PetPal – Virtual Pet Care App
+- Applied core OOP concepts: Encapsulation, Inheritance, Abstraction, Polymorphism
+- Focused on clean class design, constructors, and access control
+- Practised business logic-driven, modular Java programming
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day5)
+
+---
