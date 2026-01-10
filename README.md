@@ -156,3 +156,16 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day6)
 
 ---
+
+### 📅 Day 12 – Daily Scenario-based Problems Practice
+**(Date: 08-Jan-2026)**
+
+- Developed two Java OOP applications to manage medicine inventory, sales and a trip planning application
+  - MediStore – Pharmacy Inventory & Sales System
+  - TourMate – Travel Itinerary Planner 
+- Implemented constructors, interfaces, access modifiers, and polymorphism to ensure data encapsulation and flexibility.
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day7)
+
+---
