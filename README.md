@@ -87,6 +87,6 @@
 - Applied them to build efficient, structured, and scalable program flows.
   
 🔗**Code Link:**
-👉 [Algorithm's Runtime Analysis and Big-O Notation](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day1)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day1)
 
 ---
