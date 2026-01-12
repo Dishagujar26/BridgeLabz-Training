@@ -76,3 +76,17 @@
 
 ---
 
+### 📅 Day 6 – DSA Scenario-based Problems 
+**(Date: 10-Jan-2026)**
+
+- Practised three DSA-based problems, including 
+  - BookShelf – Library Organiser (HashMap + Linked List)
+  - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+  - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+- Learned how to model real-world problems using Linked Lists, Stacks, and HashMaps.
+- Applied them to build efficient, structured, and scalable program flows.
+  
+🔗**Code Link:**
+👉 [Algorithm's Runtime Analysis and Big-O Notation](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day1)
+
+---
