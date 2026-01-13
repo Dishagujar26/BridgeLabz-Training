@@ -90,3 +90,18 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day1)
 
 ---
+
+### 📅 Day 7 – DSA Scenario-based Problems 
+**(Date: 12-Jan-2026)**
+
+- Practised three DSA-based problems, including
+   - CallCenter – Customer Queue Manager (Queue + HashMap)
+   - TrainCompanion – Compartment Navigation System (Doubly Linked List)
+   - TextEditor – Undo/Redo Functionality (Stack)
+- Learned how Queues, Doubly Linked Lists, and Stacks are used in real-world systems.
+- Applied them to design structured and efficient program flows.
+  
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day2)
+
+---
