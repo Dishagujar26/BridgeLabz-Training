@@ -98,6 +98,8 @@
    - CallCenter – Customer Queue Manager (Queue + HashMap)
    - TrainCompanion – Compartment Navigation System (Doubly Linked List)
    - TextEditor – Undo/Redo Functionality (Stack)
+   - TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+   - BookShelf – Library Organiser (HashMap + Linked List)
 - Learned how Queues, Doubly Linked Lists, and Stacks are used in real-world systems.
 - Applied them to design structured and efficient program flows.
   
