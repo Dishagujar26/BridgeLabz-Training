@@ -381,3 +381,25 @@ BridgeLabz-Training/
 👉 [DSA Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day1)
 
 ---
+
+### 📅 Day 23 – DSA and OOPs Scenario-based Problems  
+**(Date: 12-Jan-2026)**
+
+- Practised real-world DSA problems, including
+   - CallCenter (Queue + HashMap)
+   - TrainCompanion (Doubly Linked List)
+   - TextEditor (Stack)
+   - TrafficManager (Circular Linked List + Queue)
+   - BookShelf (HashMap + Linked List).
+- Built three Java OOP applications
+   - HomeNest
+   - BudgetWise
+   - GameBox
+- Used classes, interfaces, constructors, polymorphism, and encapsulation.
+- Simulated business workflows like payments, licensing, order tracking, budgeting, and smart-device control using structured and efficient program design.
+  
+🔗**Code Link:**
+👉 [DSA Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day2)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day9)
+
+---
