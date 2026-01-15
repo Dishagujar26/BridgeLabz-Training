@@ -171,13 +171,13 @@
 ---
 
 ### 📅 Day 13 – Daily Scenario-based Problems Practice
-**(Date: 09-Jan-2026)**
+**(Date: 12-Jan-2026)**
 
 - Developed three Java OOP applications using Java classes, interfaces, and constructors to represent users, orders, content, and transactions.
 - Polymorphism and encapsulation are used to manage operations like purchases, orders, and enrollments cleanly and flexibly.
-  - Artify – Digital Art Marketplace
-  - FoodLoop – Restaurant Ordering System
-  - SkillForge – Online Learning Portal
+  - HomeNest – Smart Home Device Manager
+  - BudgetWise – Personal Finance Tracker
+  - GameBox – Mobile Game Distribution Platform
 - Simulated real-world business logic, including payments, licensing, order tracking, and learning subscriptions
 
 🔗**Code Link:** 
@@ -185,4 +185,17 @@
 
 ---
 
---- 
+### 📅 Day 14 – Daily Scenario-based Problems Practice
+**(Date: 13-Jan-2026)**
+
+- Built three Java OOP applications — HomeNest, BudgetWise, and GameBox — using classes, interfaces, and constructors.
+- Used polymorphism and encapsulation to manage device control, budgeting, and game purchases.
+  - HomeNest – Smart Home Device Manager
+  - BudgetWise – Personal Finance Tracker
+  - GameBox – Mobile Game Distribution Platform
+- Implemented real-world logic like smart home operations, expense tracking, and digital game licensing. Simulated real-world business logic, including payments, licensing, order tracking, and learning subscriptions
+
+🔗**Code Link:** 
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day9)
+
+---
