@@ -181,21 +181,20 @@
 - Simulated real-world business logic, including payments, licensing, order tracking, and learning subscriptions
 
 🔗**Code Link:** 
-👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day8)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day9)
 
 ---
 
 ### 📅 Day 14 – Daily Scenario-based Problems Practice
 **(Date: 13-Jan-2026)**
 
-- Built three Java OOP applications — HomeNest, BudgetWise, and GameBox — using classes, interfaces, and constructors.
-- Used polymorphism and encapsulation to manage device control, budgeting, and game purchases.
-  - HomeNest – Smart Home Device Manager
-  - BudgetWise – Personal Finance Tracker
-  - GameBox – Mobile Game Distribution Platform
-- Implemented real-world logic like smart home operations, expense tracking, and digital game licensing. Simulated real-world business logic, including payments, licensing, order tracking, and learning subscriptions
-
+- Built two Java OOP applications
+- Used polymorphism and encapsulation to handle bill payments, bird management, and system operations.
+  - PayXpress – Utility Bill Payment System
+  - Bird Sanctuary - Java OOP Scenario
+- Implemented real-world logic such as utility billing, transaction tracking, and wildlife management workflows.
+  
 🔗**Code Link:** 
-👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day9)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day10)
 
 ---
