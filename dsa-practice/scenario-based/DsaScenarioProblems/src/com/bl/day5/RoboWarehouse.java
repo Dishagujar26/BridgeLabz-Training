@@ -11,7 +11,6 @@ Key Concepts:
 ● Ideal for streaming insertions
  */
 import java.util.Scanner;
-
 public class RoboWarehouse {
 	private int[] weights;
 
