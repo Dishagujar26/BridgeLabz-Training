@@ -11,7 +11,6 @@ Key Concepts:
 ● Quick partitioning based on timestamps
  */
 import java.util.Scanner;
-
 class CropMonitor {
 	private int[] timestamps;
 
