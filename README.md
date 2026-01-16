@@ -119,6 +119,23 @@
 - Implemented these data structures to handle customer queues, track parcel stages, and manage exam question responses efficiently.
   
 🔗**Code Link:**
-👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day2)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day3)
+
+---
+
+### 📅 Day 9 – DSA Scenario-based Problems 
+**(Date: 15-Jan-2026)**
+
+- Practised multiple DSA-based real-world scenarios, including
+  - HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+  - SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+  - ZipZipMart – Daily Sales Summary Report (Merge Sort)
+  - EventManager – Ticket Price Optimiser (Quick Sort)
+  - ExamCell – Student Rank Generator (Merge Sort)
+- Learned how different sorting algorithms are applied to solve real-world problems based on data size, efficiency, and stability.
+- Implemented Bubble, Insertion, Merge, and Quick Sort to efficiently organise patients, books, sales data, ticket prices, and student rankings.
+- 
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day4)
 
 ---
