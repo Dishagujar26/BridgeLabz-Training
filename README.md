@@ -107,3 +107,18 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day2)
 
 ---
+
+### 📅 Day 8 – DSA Scenario-based Problems 
+**(Date: 13-Jan-2026)**
+
+- Practised three DSA-based problems, including
+   - SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+   - ParcelTracker – Delivery Chain Management (Singly Linked List)
+   - ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+- Learned how Queues, Singly Linked Lists, and Stacks are applied to manage real-world data flows.
+- Implemented these data structures to handle customer queues, track parcel stages, and manage exam question responses efficiently.
+  
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day2)
+
+---
