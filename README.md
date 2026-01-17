@@ -22,8 +22,7 @@
 - Applied `real-world use cases and best practices` to select the most efficient collection for specific problem scenarios.
 
 🔗**Code Link:**
-👉 [Generics Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/generics)
+👉 [Collections Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/generics)
 
 ---
 
----
