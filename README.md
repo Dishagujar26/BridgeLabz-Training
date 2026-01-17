@@ -421,4 +421,38 @@ BridgeLabz-Training/
 👉 [DSA Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day3)
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day10)
 
+## Week 4: Java Collections and Streams
+
+### 📅 Day 25 – Sorting Scenario-based Problems and Generics Practice Problem
+**(Date: 15-Jan-2026)**
+
+- Practised multiple DSA-based real-world scenarios, including
+  - HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+  - SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+  - ZipZipMart – Daily Sales Summary Report (Merge Sort)
+  - EventManager – Ticket Price Optimiser (Quick Sort)
+  - ExamCell – Student Rank Generator (Merge Sort)
+- Learned Java Generics fundamentals, including type parameters, generic classes & methods, bounded types, and wildcards.
+- Learned to write type-safe, reusable, and flexible code while avoiding runtime casting errors.
+  
+🔗**Code Link:**
+👉 [Sorting Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day4)
+👉 [Generics Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/generics)
+
+---
+
+## 📅 Day 26 – Sorting Scenario-based Problems and Collections Introduction
+**(Date: 16-Jan-2026)**
+
+- Practised multiple Sorting-based real-world scenarios, including
+   - RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+   - CinemaHouse – Movie Time Sorting (Bubble Sort)
+   - CropMonitor – Sensor Data Ordering (Quick Sort)
+- Gained a strong understanding of the Java Collections Framework, its hierarchy, and core interfaces, including List, Set, Queue, Deque, and Map.
+- Compared different implementations and applied best practices to select suitable collections for real-world use cases based on performance and behaviour.
+  
+🔗**Code Link:**
+👉 [Sorting Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day5)
+👉 [Collections Problems]()
+
 ---
