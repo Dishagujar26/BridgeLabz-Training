@@ -441,7 +441,7 @@ BridgeLabz-Training/
 
 ---
 
-## 📅 Day 26 – Sorting Scenario-based Problems and Collections Introduction
+### 📅 Day 26 – Sorting Scenario-based Problems and Collections Introduction
 **(Date: 16-Jan-2026)**
 
 - Practised multiple Sorting-based real-world scenarios, including
