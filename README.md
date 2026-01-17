@@ -123,10 +123,10 @@
 
 ---
 
-### 📅 Day 9 – DSA Scenario-based Problems 
+### 📅 Day 9 – Sorting Scenario-based Problems 
 **(Date: 15-Jan-2026)**
 
-- Practised multiple DSA-based real-world scenarios, including
+- Practised multiple Sorting-based real-world scenarios, including
   - HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
   - SmartShelf – Real-Time Book Arrangement (Insertion Sort)
   - ZipZipMart – Daily Sales Summary Report (Merge Sort)
@@ -137,5 +137,20 @@
 - 
 🔗**Code Link:**
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day4)
+
+---
+
+### 📅 Day 10 – Sorting Scenario-based Problems 
+**(Date: 16-Jan-2026)**
+
+- Practised multiple Sorting-based real-world scenarios, including
+  - RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+  - CinemaHouse – Movie Time Sorting (Bubble Sort)
+  - CropMonitor – Sensor Data Ordering (Quick Sort)
+- Learned how to choose appropriate sorting algorithms by analysing data size, input nature, and performance trade-offs in real-world scenarios.
+- Implemented Insertion, Bubble, and Quick Sort to efficiently organise robot loads, movie schedules, and sensor data streams.
+
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day5)
 
 ---
