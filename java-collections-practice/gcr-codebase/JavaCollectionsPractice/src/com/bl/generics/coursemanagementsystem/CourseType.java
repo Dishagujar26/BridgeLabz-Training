@@ -1,0 +1,5 @@
+package com.bl.generics.coursemanagementsystem;
+
+public abstract class CourseType {
+    public abstract String getEvaluationType();
+}
