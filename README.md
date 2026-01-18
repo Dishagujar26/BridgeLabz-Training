@@ -453,6 +453,29 @@ BridgeLabz-Training/
   
 🔗**Code Link:**
 👉 [Sorting Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day5)
-👉 [Collections Problems]()
+👉 [Collections Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/collections)
 
 ---
+
+### 📅 Day 27 – Sorting and OOPs Scenario-based Problems
+**(Date: 17-Jan-2026)**
+
+- Practised multiple sorting-based real-world scenarios, including:
+  - IceCreamRush – Sorting Flavours by Popularity (Bubble Sort)
+  - SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+  - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+  - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+- Strengthened understanding of sorting algorithms by applying them to practical, `story-driven problems`, focusing on small datasets, incremental insertions, and merging pre-sorted data.
+- Built two Java OOP applications
+- Used encapsulation and constructor-based design to compare geometric line segments and manage toy storage operations.
+  - GeoMeasure Solutions – Line Comparison System
+  - Bag-n-Ball Organiser – Toy Storage Management
+- Implemented real-world logic such as coordinate-based length comparison, capacity-controlled object storage, and bag-wise item tracking.
+  
+🔗**Code Link:**
+👉 [Sorting Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day6)
+👉 [OOPs Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day11)
+
+---
+
+
