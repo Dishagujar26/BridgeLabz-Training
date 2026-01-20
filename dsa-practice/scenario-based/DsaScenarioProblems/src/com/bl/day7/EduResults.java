@@ -28,7 +28,7 @@ public class EduResults {
 				unionList.add(list1.get(i));
 				i++;
 			} else {
-				unionList.add(list1.get(j));
+				unionList.add(list2.get(j));
 				j++;
 			}
 		}
