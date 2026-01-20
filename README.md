@@ -478,18 +478,41 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 28 – Sorting Scenario-based Problems 
+### 📅 Day 28 – Sorting, OOPs Scenario-based Problems and Java Streams
 **(Date: 19-Jan-2026)**
 
 - Practised multiple sorting-based real-world scenarios, including:
   - FitnessTracker – Daily Step Count Ranking (Bubble Sort)
   - FlashDealz – Product Sorting by Discount (Quick Sort)
   - EduResults – Rank Sheet Generator (Merge Sort)
-- Strengthened understanding of sorting algorithms by applying them to practical, story-driven problems, focusing on frequent swaps in small datasets
-- Efficient partitioning for fast sorting and merging large pre-sorted academic records.
-  
+  - Address Book System (OOPs Scenario-Based Problem)
+- Implemented `Java I/O Streams` to handle file-based and in-memory data operations efficiently.
+- Worked with `File Streams`, `Object Streams`, `ByteArray Streams`, `Buffered Streams`, and `Reader/Writer classes`.
+- Understood the differences between `byte` and `character streams` for proper data handling.
+- Applied key considerations and best practices for performance, buffering, and resource management.
+
 🔗**Code Link:**
+👉 [Java Streams Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/streams)
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day7)
+👉 [OOPs Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day12)
+
+---
+
+### 📅 Day 29 – Sorting Scenario-Based and Java Exception Handling Problems 
+**(Date: 20-Jan-2026)**
+
+- Practised multiple sorting-based real-world scenarios, including:
+  - MovieTime – Theatre Show Listings (Insertion Sort)
+  - FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+  - GamerZone – High Score Ranking System (Quick Sort)
+- Implemented comprehensive `Java Exception Handling` concepts, including `checked`, `unchecked`, and `custom exceptions`.
+- Used `try-catch`, `try-catch-finally`, and `try-with-resources` for safe execution and resource management.
+- Applied `throw` and `throws` for exception propagation and control flow.
+- Created custom exceptions by `extending Exception` and defining constructors for meaningful `error handling`.
+
+🔗**Code Link:**
+👉 [Java Exception Handling Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/exceptions)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day8)
 
 ---
 
