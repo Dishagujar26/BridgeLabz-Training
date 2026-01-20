@@ -154,3 +154,18 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day5)
 
 ---
+
+### 📅 Day 11 – Sorting Scenario-based Problems 
+**(Date: 17-Jan-2026)**
+
+- Practised multiple sorting-based real-world scenarios, including:
+  - IceCreamRush – Sorting Flavours by Popularity (Bubble Sort)
+  - SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+  - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+  - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+- Strengthened understanding of sorting algorithms by applying them to practical, story-driven problems, focusing on small datasets, incremental insertions, and merging pre-sorted data.
+
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day6)
+
+---
