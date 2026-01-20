@@ -212,3 +212,16 @@
 👉 [OOPs Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day11).
 
 ---
+
+### 📅 Day 16 – Daily Scenario-based Problems Practice
+**(Date: 19-Jan-2026)**
+
+- Built an `Address Book System` using core OOP concepts like classes, objects, encapsulation, constructors, access modifiers, and collections.
+- Implemented features to add, edit, delete, and search contacts with duplicate validation.
+- Used `ArrayList<Contact>` for in-memory storage and sorting contacts alphabetically.
+- Applied composition by separating the address details for a `clean` and `modular design`.
+  
+🔗**Code Link:**
+👉 [OOPs Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day12).
+
+---
