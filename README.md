@@ -26,3 +26,28 @@
 
 ---
 
+### 📅 Day 3 – Java Streams 
+**(Date: 19-Jan-2026)**
+
+- Implemented `Java I/O Streams` to handle file-based and in-memory data operations efficiently.
+- Worked with `File Streams`, `Object Streams`, `ByteArray Streams`, `Buffered Streams`, and `Reader/Writer classes`.
+- Understood the differences between `byte` and `character streams` for proper data handling.
+- Applied key considerations and best practices for performance, buffering, and resource management.
+
+🔗**Code Link:**
+👉 [Java Streams Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/streams)
+
+---
+
+### 📅 Day 4 – Java Exception Handling
+**(Date: 20-Jan-2026)**
+
+- Implemented comprehensive `Java Exception Handling` concepts, including `checked`, `unchecked`, and `custom exceptions`.
+- Used `try-catch`, `try-catch-finally`, and `try-with-resources` for safe execution and resource management.
+- Applied `throw` and `throws` for exception propagation and control flow.
+- Created custom exceptions by `extending Exception` and defining constructors for meaningful `error handling`.
+
+🔗**Code Link:**
+👉 [Java Exception Handling Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/exceptions)
+
+---
