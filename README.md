@@ -478,4 +478,18 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 28 – Sorting Scenario-based Problems 
+**(Date: 19-Jan-2026)**
+
+- Practised multiple sorting-based real-world scenarios, including:
+  - FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+  - FlashDealz – Product Sorting by Discount (Quick Sort)
+  - EduResults – Rank Sheet Generator (Merge Sort)
+- Strengthened understanding of sorting algorithms by applying them to practical, story-driven problems, focusing on frequent swaps in small datasets
+- Efficient partitioning for fast sorting and merging large pre-sorted academic records.
+  
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day7)
+
+---
 
