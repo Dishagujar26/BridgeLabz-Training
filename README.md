@@ -198,3 +198,30 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioProblems/src/com/bl/day10)
 
 ---
+
+### 📅 Day 15 – Daily Scenario-based Problems Practice
+**(Date: 18-Jan-2026)**
+
+- Built two Java OOP applications
+- Used encapsulation and constructor-based design to compare geometric line segments and manage toy storage operations.
+  - GeoMeasure Solutions – Line Comparison System
+  - Bag-n-Ball Organiser – Toy Storage Management
+- Implemented real-world logic such as coordinate-based length comparison, capacity-controlled object storage, and bag-wise item tracking.
+  
+🔗**Code Link:**
+👉 [OOPs Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day11).
+
+---
+
+### 📅 Day 16 – Daily Scenario-based Problems Practice
+**(Date: 19-Jan-2026)**
+
+- Built an `Address Book System` using core OOP concepts like classes, objects, encapsulation, constructors, access modifiers, and collections.
+- Implemented features to add, edit, delete, and search contacts with duplicate validation.
+- Used `ArrayList<Contact>` for in-memory storage and sorting contacts alphabetically.
+- Applied composition by separating the address details for a `clean` and `modular design`.
+  
+🔗**Code Link:**
+👉 [OOPs Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day12).
+
+---
