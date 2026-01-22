@@ -184,3 +184,18 @@
 👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day7)
 
 ---
+
+### 📅 Day 13 – Sorting Scenario-based Problems 
+**(Date: 20-Jan-2026)**
+
+- Practised multiple sorting-based real-world scenarios, including:
+  - MovieTime – Theatre Show Listings (Insertion Sort)
+  - FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+  - GamerZone – High Score Ranking System (Quick Sort)
+- Strengthened understanding of sorting algorithms through story-driven use cases, focusing on incremental insertions, efficient merging of large datasets, and fast partitioning for real-time rankings.
+  
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day8)
+
+---
+
