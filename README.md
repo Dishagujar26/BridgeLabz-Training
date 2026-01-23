@@ -216,3 +216,17 @@
 
 ---
 
+### 📅 Day 15 – AVL Tree Scenario-based Problems 
+**(Date: 22-Jan-2026)**
+
+- Practised multiple AVL Tree data structures real-world scenarios and problems, including:
+- `Gaming App – Real-Time Leaderboard`: AVL Tree maintains player scores in sorted order, allowing fast insert/update of points, efficient retrieval of top players, and quick removal during bans or exits.
+- `Online Ticket Booking by Time`: Events are stored based on start time using an AVL Tree, enabling efficient insertion of new events, deletion of cancelled events, and ordered display of upcoming events.
+- `Hospital Queue Management`: AVL Tree organises patients by check-in time, supporting quick registration, efficient discharge of records, and fast traversal to display patients by arrival order.
+
+🔗**Code Link:**
+👉 [AVL Tree scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day10)
+
+---
+
+
