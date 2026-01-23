@@ -199,3 +199,20 @@
 
 ---
 
+
+### 📅 Day 14 – Binary Search Tree and Sorting Scenario-based Problems 
+**(Date: 21-Jan-2026)**
+
+- Practised multiple data structures and sorting–based real-world scenarios, including:
+  - E-Commerce Product Inventory (Binary Search Tree)
+  - University's Digital Record System (BST)
+  - Music App – Organise Songs by Track ID (BST)
+  - TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+  - MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+- Strengthened understanding of BST operations (insert, search, traversal) and sorting algorithms through story-driven use cases, focusing on ordered data management, incremental updates, and efficient handling of large datasets.
+  
+🔗**Code Link:**
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day9)
+
+---
+
