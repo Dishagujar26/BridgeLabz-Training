@@ -582,3 +582,24 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 33 –  JSON Data and Collections Scenario-Based Problems
+**(Date: 24-Jan-2026)**
+
+- Learned the fundamentals of JSON, including its structure, syntax, and supported data types.
+- Practised creating `JSON objects`, `nested objects`, and `JSON arrays` using `org.json`, Gson, and Jackson libraries.
+- Implemented reading, writing, and parsing JSON data both with POJOs and dynamic approaches.
+- Gained hands-on experience in validating JSON data using `JSON Schema` to ensure structural correctness.
+- Practised file handling with I/O Streams across real-world scenarios like
+   - MedInventory – Smart Hospital Inventory Tracker,
+   - ChatLogParser – Messaging Pattern Analyser,
+   - SongVault – Personal Music Library Manager,
+   - ExamResultUploader – Bulk Marks Processing, and
+   - DealTracker – E-Commerce Discount Validator.
+- Gained hands-on experience using Regex to extract emails, ratings, and keywords, and to validate formats across text, CSV, and source files.
+- Utilised Java Collections (List, Set, Map, PriorityQueue) to efficiently organise, group, sort, and analyse large volumes of data.
+ 
+🔗**Code Link:**
+👉 [JSON Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/gcr-codebase/JavaIOStreamsPractice/src/main/java/com/bl/jsondata)
+👉 [Scenario-Based Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioPractice/src/com/bl/day2)
+
+---
