@@ -22,7 +22,7 @@
 - Applied `real-world use cases and best practices` to select the most efficient collection for specific problem scenarios.
 
 🔗**Code Link:**
-👉 [Collections Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/generics)
+👉 [Collections Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/collections)
 
 ---
 
@@ -51,3 +51,68 @@
 👉 [Java Exception Handling Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/exceptions)
 
 ---
+
+### 📅 Day 5 – Regular Expressions (regex) and JUnit
+**(Date: 21-Jan-2026)**
+
+- Learned and practised Regex concepts, including `metacharacters`, `quantifiers`, and writing patterns for `email validation`, `password strength`, and `phone number formats`.
+- Worked with the `Java Regex API` using `Pattern` and `Matcher`, and practised methods like `find()`, `matches()`, and `replaceAll()`.
+- Learned the JUnit framework for `unit testing in Java` and understood its role in testing application logic.
+- Practised writing `JUnit test cases` using `annotations`, proper test class structure, and `assertions` to verify results.
+
+🔗**Code Link:**
+👉 [Regex Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/regularexpression)
+👉 [JUnit Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/junit)
+
+---
+
+### 📅 Day 6 – Annotations and Reflection in Java
+**(Date: 22-Jan-2026)**
+
+- Learned the basics of annotations in Java and understood their purpose in adding `metadata` to code.
+- Practised using common `built-in annotations` and created `custom and advanced annotations` for real-world scenarios.
+- Explored real-world use cases of annotations and how they are handled using annotation processing tools.
+- Gained understanding of `Java Reflection`, practised `accessing classes`, `methods`, and `fields` at runtime, and used reflection with annotations.
+
+🔗**Code Link:**
+👉 [Annotations Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/annotations)
+👉 [Reflection Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/reflection)
+
+---
+
+### 📅 Day 7 – Collections Scenario-based Problems Practice
+**(Date: 23-Jan-2026)**
+
+- Practised file handling with I/O Streams across real-world scenarios like
+   - ResumeAnalyzer – Smart Resume Filtering System,
+   - TravelLog – Trip Organiser for Backpackers,
+   - FeedbackGuru – Smart Survey Analyser,
+   - CodeRepoCleaner – Java File Scanner and Organiser, and
+   - ExamScanner – Digital Answer Sheet Validator.
+- Learned to apply Regex for extracting emails, ratings, keywords, and validating formats in text, CSV, and source files.
+- Used Java Collections (List, Set, Map, PriorityQueue) to organise, group, sort, and summarise large datasets.
+- Applied Generics to design flexible, reusable systems for diverse data types and domains.
+
+🔗**Code Link:**
+👉 [Scenario-Based Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioPractice/src/com/bl/day1)
+
+---
+
+### 📅 Day 8 – Collections Scenario-based Problems Practice
+**(Date: 24-Jan-2026)**
+
+- Practised file handling with I/O Streams across real-world scenarios like
+   - MedInventory – Smart Hospital Inventory Tracker,
+   - ChatLogParser – Messaging Pattern Analyser,
+   - SongVault – Personal Music Library Manager,
+   - ExamResultUploader – Bulk Marks Processing, and
+   - DealTracker – E-Commerce Discount Validator.
+- Gained hands-on experience using Regex to extract emails, ratings, and keywords, and to validate formats across text, CSV, and source files.
+- Utilised Java Collections (List, Set, Map, PriorityQueue) to efficiently organise, group, sort, and analyse large volumes of data.
+- Implemented Generics to build flexible and reusable solutions that support multiple data types and application domains.
+ 
+🔗**Code Link:**
+👉 [Scenario-Based Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioPractice/src/com/bl/day2)
+
+---
+
