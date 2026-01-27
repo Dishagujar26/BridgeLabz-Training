@@ -12,3 +12,20 @@
 👉 [CSV Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/gcr-codebase/JavaIOStreamsPractice/src/main/java/com/bl/csvdatahandling)
 
 ---
+
+### 📅 Day 2 – JSON Data 
+**(Date: 24-Jan-2026)**
+
+- Learned the fundamentals of JSON, including its structure, syntax, and supported data types.
+- Practised creating `JSON objects`, `nested objects`, and `JSON arrays` using `org.json`, Gson, and Jackson libraries.
+- Implemented reading, writing, and parsing JSON data both with POJOs and dynamic approaches.
+- Gained hands-on experience in validating JSON data using `JSON Schema` to ensure structural correctness.
+ 
+🔗**Code Link:**
+👉 [JSON Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/gcr-codebase/JavaIOStreamsPractice/src/main/java/com/bl/jsondata)
+
+---
+
+
+
+JSON Schema Validation: Practiced validating JSON against schemas using libraries like Everit or Networknt for structure checks.
