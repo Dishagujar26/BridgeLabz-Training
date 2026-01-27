@@ -516,3 +516,45 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 30 – Sorting, Tree Scenario-Based and Java Regex and JUnit Practice
+**(Date: 21-Jan-2026)**
+
+-  Practised multiple data structures and sorting–based real-world scenarios, including:
+  - E-Commerce Product Inventory (Binary Search Tree)
+  - University's Digital Record System (BST)
+  - Music App – Organise Songs by Track ID (BST)
+  - TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+  - MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+- Strengthened understanding of BST operations (insert, search, traversal) and sorting
+- Learned and practised Regex concepts, including `metacharacters`, `quantifiers`, and writing patterns for `email validation`, `password strength`, and `phone number formats`.
+- Worked with the `Java Regex API` using `Pattern` and `Matcher`, and practised methods like `find()`, `matches()`, and `replaceAll()`.
+- Learned the JUnit framework for `unit testing in Java` and understood its role in testing application logic.
+- Practised writing `JUnit test cases` using `annotations`, proper test class structure, and `assertions` to verify results.
+  
+🔗**Code Link:**
+👉 [Regex Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/regularexpression)
+👉 [JUnit Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/junit)
+👉 [Scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day9)
+
+---
+
+### 📅 Day 31 – AVL Tree Scenario-Based and Java Annotations and Reflection Practice
+**(Date: 22-Jan-2026)**
+
+-  Practised multiple data structures and sorting–based real-world scenarios, including:
+  - Gaming App – Real-Time Leaderboard
+  - Online Ticket Booking by Time
+  - Hospital Queue Management
+- Strengthened understanding of BST operations (insert, search, traversal) and sorting
+- Learned the basics of annotations in Java and understood their purpose in adding `metadata` to code.
+- Practised using common `built-in annotations` and created `custom and advanced annotations` for real-world scenarios.
+- Explored real-world use cases of annotations and how they are handled using annotation processing tools.
+- Gained understanding of `Java Reflection`, practised `accessing classes`, `methods`, and `fields` at runtime, and used reflection with annotations.
+
+🔗**Code Link:**
+👉 [Annotations Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/annotations)
+👉 [Reflection Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/reflection)
+👉 [AVL Tree scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day10)
+
+---
+
