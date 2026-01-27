@@ -1,0 +1,16 @@
+[
+    {
+        "phone": "9876543210",
+        "name": "Amit Sharma",
+        "id": 101,
+        "age": 21,
+        "email": "amit@gmail.com"
+    },
+    {
+        "phone": "9123456789",
+        "name": "Neha Verma",
+        "id": 102,
+        "age": 22,
+        "email": "neha@gmail.com"
+    }
+]
