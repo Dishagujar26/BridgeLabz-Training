@@ -110,7 +110,7 @@
 - Gained hands-on experience using Regex to extract emails, ratings, and keywords, and to validate formats across text, CSV, and source files.
 - Utilised Java Collections (List, Set, Map, PriorityQueue) to efficiently organise, group, sort, and analyse large volumes of data.
 - Implemented Generics to build flexible and reusable solutions that support multiple data types and application domains.
-
+ 
 🔗**Code Link:**
 👉 [Scenario-Based Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioPractice/src/com/bl/day2)
 
