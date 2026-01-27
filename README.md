@@ -558,3 +558,27 @@ BridgeLabz-Training/
 
 ---
 
+## Week 5: IO Programming 
+
+### 📅 Day 32 – CSV Data Handling and Collections Scenario-Based Problems
+**(Date: 23-Jan-2026)**
+
+-  Practised file handling with I/O Streams across real-world scenarios like
+   - ResumeAnalyzer – Smart Resume Filtering System,
+   - TravelLog – Trip Organiser for Backpackers,
+   - FeedbackGuru – Smart Survey Analyser,
+   - CodeRepoCleaner – Java File Scanner and Organiser, and
+   - ExamScanner – Digital Answer Sheet Validator.
+- Learned to apply Regex for extracting emails, ratings, keywords, and validating formats in text, CSV, and source files.
+- Used Java Collections (List, Set, Map, PriorityQueue) to organise, group, sort, and summarise large datasets.
+- Learned the basics of CSV (Comma-Separated Values) format and its common use cases for structured data.
+- Practised reading from and writing to CSV files to handle data efficiently.
+- Learned how to parse CSV data into useful formats for further processing.
+- Practised data validation techniques to ensure data accuracy and consistency.
+ 
+🔗**Code Link:**
+👉 [CSV Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/gcr-codebase/JavaIOStreamsPractice/src/main/java/com/bl/csvdatahandling)
+👉 [Scenario-Based Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioPractice/src/com/bl/day1)
+
+---
+
