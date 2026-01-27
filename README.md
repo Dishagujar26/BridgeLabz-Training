@@ -25,7 +25,3 @@
 👉 [JSON Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/gcr-codebase/JavaIOStreamsPractice/src/main/java/com/bl/jsondata)
 
 ---
-
-
-
-JSON Schema Validation: Practiced validating JSON against schemas using libraries like Everit or Networknt for structure checks.
