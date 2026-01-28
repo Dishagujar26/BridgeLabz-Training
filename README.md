@@ -25,3 +25,16 @@
 👉 [JSON Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/gcr-codebase/JavaIOStreamsPractice/src/main/java/com/bl/jsondata)
 
 ---
+
+### 📅 Day 3 – Scenario-Based Problems Practice 
+**(Date: 27-Jan-2026)**
+
+- Practised IO-Streams Scenario-Based Problems 
+- `HealthCheckPro – API Metadata Validator`: Scans API methods with custom annotations using Reflection, checks missing annotations, and auto-generates documentation.
+- `MarkMate – Student Marksheet Generator`: Reads CSV files of student marks, calculates total, average, grade, and exports JSON report cards.
+- `EventTracker – Auto Audit System`: Uses Reflection to find @AuditTrail methods and generates structured JSON logs for user actions.
+ 
+🔗**Code Link:**
+👉 [JSON Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/scenario-based/iostreams-scenario-practice/src/main/java/com/bl/day1)
+
+---
