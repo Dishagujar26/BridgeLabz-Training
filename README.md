@@ -35,6 +35,6 @@
 - `EventTracker – Auto Audit System`: Uses Reflection to find @AuditTrail methods and generates structured JSON logs for user actions.
  
 🔗**Code Link:**
-👉 [JSON Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/scenario-based/iostreams-scenario-practice/src/main/java/com/bl/day1)
+👉 [Scenario-Based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/scenario-based/iostreams-scenario-practice/src/main/java/com/bl/day1)
 
 ---
