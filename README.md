@@ -556,8 +556,6 @@ BridgeLabz-Training/
 👉 [Reflection Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/bl/reflection)
 👉 [AVL Tree scenario-based Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioProblems/src/com/bl/day10)
 
----
-
 ## Week 5: IO Programming 
 
 ### 📅 Day 32 – CSV Data Handling and Collections Scenario-Based Problems
@@ -601,5 +599,27 @@ BridgeLabz-Training/
 🔗**Code Link:**
 👉 [JSON Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-io-streams-practice/java-io-streams-practice/gcr-codebase/JavaIOStreamsPractice/src/main/java/com/bl/jsondata)
 👉 [Scenario-Based Practice Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioPractice/src/com/bl/day2)
+
+## Week 6: Java 8 and Its Features
+
+### 📅 Day 34 – Functional Interface and Lambda Expressions
+**(Date: 27-Jan-2026)**
+
+- Worked with `Lambda Expressions` and `Functional Interfaces` to write concise and modern Java code:
+- Understood Functional Interface (interface with only one abstract method)
+- Used built-in functional interfaces:
+  - `Predicate` – condition checking
+  - `Consumer` – performs action without return
+  - `Function` – input → output mapping
+  - `Supplier` – provides values without input
+- Applied lambdas with Collections for `filtering`, `sorting`, and `processing data`
+- Reduced boilerplate code and improved readability
+- Practised real-world scenarios using Java 8+ functional programming
+- Focused on clean, expressive, and efficient Java coding using lambdas and functional interfaces.
+
+**🔗Code Link:**
+👉 [Lambda Expression problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/bl/lambdaexpression) 
+👉 [Functional Interface problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/bl/functionalinterface)
+👉 [Method References problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/bl/methodreference)
 
 ---
