@@ -642,17 +642,17 @@ BridgeLabz-Training/
 ---
 
 ### 📅 Day 36 – Java 8 Scenario-Based Questions Practice
-**(Date: 29-Jan-2026)**
+**(Date: 29-30 Jan 2026)**
 
 - Practised a wide range of scenario-based problems using Java 8 features to understand how functional programming concepts are applied in real-world applications.
 - The focus was on writing clean, readable, and efficient code while replacing traditional imperative logic with modern Java constructs.
 
 **Topics Practised in Detail**
 
-`Lambda Expressions` - Used to simplify anonymous classes and concisely implement behaviour-driven logic.
-`Functional Interfaces` - Practised built-in interfaces such as Predicate, Function, Consumer, and Supplier to model business rules.
-`Streams API` - Solved problems involving filtering, mapping, grouping, sorting, and aggregation of collections.
-`Optional Class` - Handled null-sensitive scenarios safely and avoided NullPointerException using Optional-based design.
+- `Lambda Expressions` - Used to simplify anonymous classes and concisely implement behaviour-driven logic.
+- `Functional Interfaces` - Practised built-in interfaces such as Predicate, Function, Consumer, and Supplier to model business rules.
+- `Streams API` - Solved problems involving filtering, mapping, grouping, sorting, and aggregation of collections.
+- `Optional Class` - Handled null-sensitive scenarios safely and avoided NullPointerException using Optional-based design.
 
 **🔗Code Link:**
 [Lambda Expression Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/lambdaexpression) 
@@ -661,6 +661,21 @@ BridgeLabz-Training/
 [Stream problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/streamapi)
 
 ---
+
+### 📅 Day 36 – Java 8 Logical Questions Practice
+**(Date: 31-Jan-2026)**
+
+- Java 8 `List → Map`, `Map → List`, `List ↔ Set`, and `Array ↔ Collection` conversions using Streams.
+- Object collection transformations and grouping scenarios with Java 8 Streams.
+- String-based logical problems such as `frequency count`, `filtering`, and `character processing` using streams.
+- Stream logical questions involving `filtering`, `mapping`, `sorting`, `grouping`, `partitioning`, and `reduction`.
+- Lambda Expressions, Functional Interfaces, Optional class, and Streams API applied in interview-oriented scenarios.
+
+**🔗Code Link:**
+👉[Logical Questions](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/logical-problems/LogicalProblems/src/com/bl)
+
+---
+
 
 
 
