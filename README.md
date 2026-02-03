@@ -614,8 +614,6 @@ BridgeLabz-Training/
   - `Supplier` – provides values without input
 - Applied lambdas with Collections for `filtering`, `sorting`, and `processing data`
 - Reduced boilerplate code and improved readability
-- Practised real-world scenarios using Java 8+ functional programming
-- Focused on clean, expressive, and efficient Java coding using lambdas and functional interfaces.
 
 **🔗Code Link:**
 👉 [Lambda Expression problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/bl/lambdaexpression) 
@@ -635,8 +633,6 @@ BridgeLabz-Training/
   - `toList`, `toSet`, `toMap`
   - `groupingBy`, `partitioningBy`
   - `counting`, `averaging`, `summarising`
-- Solved real-world scenarios like employee data analysis and student result processing
-- Understood the benefits of functional-style, readable, and efficient data handling
 - Focused on transforming, filtering, and aggregating data using Streams + Collectors for clean Java code.
 
 **🔗Code Link:**
@@ -644,3 +640,28 @@ BridgeLabz-Training/
 👉 [Collectors' problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/bl/collectors)
 
 ---
+
+### 📅 Day 36 – Java 8 Scenario-Based Questions Practice
+**(Date: 29-Jan-2026)**
+
+- Practised a wide range of scenario-based problems using Java 8 features to understand how functional programming concepts are applied in real-world applications.
+- The focus was on writing clean, readable, and efficient code while replacing traditional imperative logic with modern Java constructs.
+
+**Topics Practised in Detail**
+
+`Lambda Expressions` - Used to simplify anonymous classes and concisely implement behaviour-driven logic.
+`Functional Interfaces` - Practised built-in interfaces such as Predicate, Function, Consumer, and Supplier to model business rules.
+`Streams API` - Solved problems involving filtering, mapping, grouping, sorting, and aggregation of collections.
+`Optional Class` - Handled null-sensitive scenarios safely and avoided NullPointerException using Optional-based design.
+
+**🔗Code Link:**
+[Lambda Expression Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/lambdaexpression) 
+[Functional Interface Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/functionalinterfaces)
+[Optional Class problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/optionalclass)
+[Stream problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/streamapi)
+
+---
+
+
+
+
