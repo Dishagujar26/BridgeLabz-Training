@@ -662,7 +662,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 36 – Java 8 Logical Questions Practice
+### 📅 Day 37 – Java 8 Logical Questions Practice
 **(Date: 31-Jan-2026)**
 
 - Java 8 `List → Map`, `Map → List`, `List ↔ Set`, and `Array ↔ Collection` conversions using Streams.
