@@ -1,7 +1,7 @@
 # BridgeLabz-Training
 
-📅 Day 1 – Software Design Principles & GoF Design Patterns
-(Date: 31-Jan-2026)
+## 📅 Day 1 – Software Design Principles & GoF Design Patterns
+**(Date: 31-Jan-2026)**
 
  - This repository reflects my learning and practice of core software design principles and `GoF design patterns`, essential for building clean, maintainable, and scalable applications.
  - I studied and applied `SOLID principles` (SRP, OCP, LSP, ISP, DIP) along with key design guidelines such as `DRY`, `KISS`, and `YAGNI` to improve code quality and design decisions.
@@ -12,8 +12,8 @@
 
 ---
 
-📅 Day 2 – Java Multithreading
-(Date: 02-Feb-2026)
+## 📅 Day 2 – Java Multithreading
+**(Date: 02-Feb-2026)**
 
  - Practice Java Multithreading concepts and how to build concurrent and high-performance applications.
  - I covered core topics such as `thread creation`, `lifecycle`, `synchronisation`, `locks`, `inter-thread communication`, `Executor framework`, `Callable`, and `ThreadLocal`.
@@ -24,3 +24,18 @@
 [Multithreading Questions](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-designpattern-practice/java-designpattern-practice/gcr-codebase/MultithreadingPractice/src/com/bl/practiceproblems)
 
 ---
+
+## 📅 Day 3 – Bank Transactions Using Multithreading
+**(Date: 03-Feb-2026)**
+
+- Solved a Java multithreading problem simulating concurrent bank transactions.
+- Implemented a thread-safe Bank class with synchronised deposit, withdrawal, and balance operations to prevent race conditions.
+- Created multiple Customer threads to perform transactions concurrently and verified correctness through final account balances.
+- This exercise strengthened my understanding of thread creation, synchronisation, and real-world concurrency handling.
+
+**🔗Code Link:**
+[Code Link](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-designpattern-practice/java-designpattern-practice/scenario-based/ScenarioProblems/src/com/banktransactionmultithreading)
+
+---
+
+
