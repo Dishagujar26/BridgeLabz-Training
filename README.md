@@ -25,6 +25,6 @@
 - `System Administration` – Learned speciality management, database backup, and viewing audit logs.
 
 🔗**Code Link:** 
-👉 [MySql Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenario-based/ScenarioBasedPractice/src/com)
+👉 [Scenario Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenario-based/ScenarioBasedPractice/src/com)
 
 ---
