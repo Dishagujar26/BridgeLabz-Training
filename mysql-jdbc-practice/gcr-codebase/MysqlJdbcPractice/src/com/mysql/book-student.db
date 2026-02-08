@@ -1,0 +1,142 @@
+CREATE TABLE book (
+    book_id INT PRIMARY KEY,
+    title VARCHAR(50),
+    author VARCHAR(50),
+    category VARCHAR(50),
+    isbn VARCHAR(50),
+    total_copies INT,
+    available_copies INT
+);
+
+mysql> desc book;
++------------------+-------------+------+-----+---------+-------+
+| Field            | Type        | Null | Key | Default | Extra |
++------------------+-------------+------+-----+---------+-------+
+| book_id          | int         | NO   | PRI | NULL    |       |
+| title            | varchar(50) | YES  |     | NULL    |       |
+| author           | varchar(50) | YES  |     | NULL    |       |
+| category         | varchar(50) | YES  |     | NULL    |       |
+| isbn             | varchar(50) | YES  |     | NULL    |       |
+| total_copies     | int         | YES  |     | NULL    |       |
+| available_copies | int         | YES  |     | NULL    |       |
++------------------+-------------+------+-----+---------+-------+
+
+CREATE TABLE student (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    department VARCHAR(50)
+);
+
+
+mysql> desc student;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| student_id | int         | NO   | PRI | NULL    |       |
+| name       | varchar(50) | YES  |     | NULL    |       |
+| email      | varchar(50) | YES  |     | NULL    |       |
+| department | varchar(50) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+
+CREATE TABLE borrow_record (
+    borrow_id INT PRIMARY KEY,
+    book_id INT,
+    student_id INT,
+    borrow_date DATE,
+    due_date DATE,
+    return_date DATE,
+    FOREIGN KEY (book_id) REFERENCES book(book_id),
+    FOREIGN KEY (student_id) REFERENCES student(student_id)
+);
+
+
+mysql> desc borrow_record;
++-------------+------+------+-----+---------+-------+
+| Field       | Type | Null | Key | Default | Extra |
++-------------+------+------+-----+---------+-------+
+| borrow_id   | int  | NO   | PRI | NULL    |       |
+| book_id     | int  | YES  | MUL | NULL    |       |
+| student_id  | int  | YES  | MUL | NULL    |       |
+| borrow_date | date | YES  |     | NULL    |       |
+| due_date    | date | YES  |     | NULL    |       |
+| return_date | date | YES  |     | NULL    |       |
++-------------+------+------+-----+---------+-------+
+
+CREATE TABLE fine (
+    fine_id INT PRIMARY KEY,
+    borrow_id INT,
+    fine_amount DECIMAL(10,2),
+    paid_status BOOLEAN,
+    FOREIGN KEY (borrow_id) REFERENCES borrow_record(borrow_id)
+);
+
+
+mysql> desc fine;
++-------------+---------------+------+-----+---------+-------+
+| Field       | Type          | Null | Key | Default | Extra |
++-------------+---------------+------+-----+---------+-------+
+| fine_id     | int           | NO   | PRI | NULL    |       |
+| borrow_id   | int           | YES  | MUL | NULL    |       |
+| fine_amount | decimal(10,2) | YES  |     | NULL    |       |
+| paid_status | tinyint(1)    | YES  |     | NULL    |       |
++-------------+---------------+------+-----+---------+-------+
+
+INSERT INTO book
+(book_id, title, author, category, isbn, total_copies, available_copies) VALUES (1, 'Clean Code', 'Robert Martin', 'Programming', 'ISBN001', 5, 5);
+
+
+mysql> select * from book;
++---------+------------+---------------+-------------+---------+--------------+------------------+
+| book_id | title      | author        | category    | isbn    | total_copies | available_copies |
++---------+------------+---------------+-------------+---------+--------------+------------------+
+|       1 | Clean Code | Robert Martin | Programming | ISBN001 |            5 |                5 |
++---------+------------+---------------+-------------+---------+--------------+------------------+
+
+INSERT INTO student
+(student_id, name, email, department) VALUES (101, 'Rahul', 'rahul@gmail.com', 'CSE');
+
+
+mysql> select * from student;
++------------+-------+-----------------+------------+
+| student_id | name  | email           | department |
++------------+-------+-----------------+------------+
+|        101 | Rahul | rahul@gmail.com | CSE        |
++------------+-------+-----------------+------------+
+
+INSERT INTO borrow_record (borrow_id, book_id, student_id, borrow_date, due_date, return_date) VALUES
+(1001, 1, 101, '2026-02-01', '2026-02-08', NULL);
+
+
+mysql> select * from borrow_record;
++-----------+---------+------------+-------------+------------+-------------+
+| borrow_id | book_id | student_id | borrow_date | due_date   | return_date |
++-----------+---------+------------+-------------+------------+-------------+
+|      1001 |       1 |        101 | 2026-02-01  | 2026-02-08 | NULL        |
++-----------+---------+------------+-------------+------------+-------------+
+
+INSERT INTO fine (fine_id, borrow_id, fine_amount, paid_status) VALUES
+(1, 1001, 50.00, FALSE);
+
+
+mysql> select * from fine;
++---------+-----------+-------------+-------------+
+| fine_id | borrow_id | fine_amount | paid_status |
++---------+-----------+-------------+-------------+
+|       1 |      1001 |       50.00 |           0 |
++---------+-----------+-------------+-------------+
+
+-- Search Functionality 
+
+SELECT * FROM book WHERE category = 'Programming' AND author = 'Robert Martin';
+SELECT * FROM book WHERE available_copies > 0;
+SELECT * FROM book WHERE title LIKE '%Code%';
+SELECT * FROM book WHERE category = 'Programming' AND author = 'Robert Martin' AND available_copies > 0;
+
++---------+------------+---------------+-------------+---------+--------------+------------------+
+| book_id | title      | author        | category    | isbn    | total_copies | available_copies |
++---------+------------+---------------+-------------+---------+--------------+------------------+
+|       1 | Clean Code | Robert Martin | Programming | ISBN001 |            5 |                5 |
++---------+------------+---------------+-------------+---------+--------------+------------------+
+
+
