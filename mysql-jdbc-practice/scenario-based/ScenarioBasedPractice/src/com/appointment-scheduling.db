@@ -1,0 +1,133 @@
+
+mysql> desc appointment;
++------------------+-------------+------+-----+---------+-------+
+| Field            | Type        | Null | Key | Default | Extra |
++------------------+-------------+------+-----+---------+-------+
+| appointment_id   | int         | NO   | PRI | NULL    |       |
+| doctor_id        | int         | YES  | MUL | NULL    |       |
+| patient_id       | int         | YES  | MUL | NULL    |       |
+| appointment_date | date        | YES  |     | NULL    |       |
+| status           | varchar(20) | YES  |     | NULL    |       |
++------------------+-------------+------+-----+---------+-------+
+
+mysql> desc patient;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| name        | varchar(50) | YES  |     | NULL    |       |
+| DOB         | varchar(50) | YES  |     | NULL    |       |
+| address     | varchar(50) | YES  |     | NULL    |       |
+| blood_group | varchar(20) | YES  |     | NULL    |       |
+| patient_id  | int         | NO   | PRI | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+mysql> desc doctor;
++------------------+---------------+------+-----+---------+-------+
+| Field            | Type          | Null | Key | Default | Extra |
++------------------+---------------+------+-----+---------+-------+
+| doctor_id        | int           | NO   | PRI | NULL    |       |
+| doctor_name      | varchar(50)   | YES  |     | NULL    |       |
+| specialty_id     | int           | YES  | MUL | NULL    |       |
+| contact          | varchar(20)   | YES  |     | NULL    |       |
+| consultation_fee | decimal(10,2) | YES  |     | NULL    |       |
+| is_active        | tinyint(1)    | YES  |     | NULL    |       |
++------------------+---------------+------+-----+---------+-------+
+
+mysql> desc doctor_schedule;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| schedule_id    | int         | NO   | PRI | NULL    |       |
+| doctor_id      | int         | YES  | MUL | NULL    |       |
+| available_date | varchar(20) | YES  |     | NULL    |       |
+| start_time     | varchar(20) | YES  |     | NULL    |       |
+| end_time       | varchar(20) | YES  |     | NULL    |       |
+| max_patients   | int         | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+mysql> desc appointment_audit;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| audit_id       | int         | NO   | PRI | NULL    |       |
+| appointment_id | int         | YES  | MUL | NULL    |       |
+| action_type    | varchar(20) | YES  |     | NULL    |       |
+| action_time    | varchar(20) | YES  |     | NULL    |       |
+| remarks        | varchar(10) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+mysql> insert into appointment (appointment_id, doctor_id, patient_id, appointment_date, status) 
+values(3, 103, 101, '2026-02-12', 'SCHEDULED');
+
+mysql> insert into appointment (appointment_id, doctor_id, patient_id, appointment_date, status) 
+values(4, 103, 102, '2026-03-10', 'SCHEDULED');
+
+mysql> insert into appointment (appointment_id, doctor_id, patient_id, appointment_date, status) 
+ values(5, 103, 103, '2026-05-15', 'SCHEDULED');
+
+mysql> select count(*) from appointment where doctor_id = 103 and appointment_date = '26-02-12' and status = 'SCHEDULED';
++----------+
+| count(*) |
++----------+
+|        1 |
++----------+
+ 
+mysql> select appointment_date, count(*) as booked_slots from appointment where doctor_id = 103 and status = 'SCHEDULED' group by appointment_date;
++------------------+--------------+
+| appointment_date | booked_slots |
++------------------+--------------+
+| 2026-02-12       |            1 |
+| 2026-03-10       |            1 |
+| 2026-05-15       |            1 |
++------------------+--------------+
+
+mysql> start transaction;
+
+mysql> update appointment set status = 'CANCELLED' where appointment_id = 3;
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from appointment;
++----------------+-----------+------------+------------------+-----------+
+| appointment_id | doctor_id | patient_id | appointment_date | status    |
++----------------+-----------+------------+------------------+-----------+
+|              1 |       101 |        102 | 2026-02-10       | Booked    |
+|              2 |       101 |        103 | 2016-03-10       | Booked    |
+|              3 |       103 |        101 | 2026-02-12       | CANCELLED |
+|              4 |       103 |        102 | 2026-03-10       | SCHEDULED |
+|              5 |       103 |        103 | 2026-05-15       | SCHEDULED |
++----------------+-----------+------------+------------------+-----------+
+
+mysql> insert into appointment_audit (audit_id, appointment_id, action_type, action_time, remarks) 
+values (1, 3, 'CANCELLED', NOW(), 'reschedule');
+
+mysql> select * from appointment_audit;
++----------+----------------+-------------+---------------------+------------+
+| audit_id | appointment_id | action_type | action_time         | remarks    |
++----------+----------------+-------------+---------------------+------------+
+|        1 |              3 | CANCELLED   | 2026-02-08 19:23:04 | reschedule |
++----------+----------------+-------------+---------------------+------------+
+
+mysql> update appointment set appointment_date = '26-02-15', doctor_id = 103 where appointment_id = 3;
+
+mysql> select * from appointment;
++----------------+-----------+------------+------------------+-----------+
+| appointment_id | doctor_id | patient_id | appointment_date | status    |
++----------------+-----------+------------+------------------+-----------+
+|              1 |       101 |        102 | 2026-02-10       | Booked    |
+|              2 |       101 |        103 | 2016-03-10       | Booked    |
+|              3 |       103 |        101 | 2026-02-15       | CANCELLED |
+|              4 |       103 |        102 | 2026-03-10       | SCHEDULED |
+|              5 |       103 |        103 | 2026-05-15       | SCHEDULED |
++----------------+-----------+------------+------------------+-----------+
+
+mysql> SELECT a.appointment_date, p.name as patient_name, d.doctor_name 
+FROME appointment a
+JOIN patient p on a.patient_id = p.patient_id
+JOIN doctor d on a.doctor_id = d.doctor_id 
+WHERE a.appointment_date = '2026-02-12' 
+AND a.status = 'SCHEDULED' 
+ORDER BY a.appointment_date;
+
+
+
+
