@@ -1,0 +1,143 @@
+CREATE TABLE bill (
+    bill_id INT PRIMARY KEY,
+    visit_id INT,
+    total_amount DECIMAL(10,2),
+    payment_status VARCHAR(20),  
+    bill_date DATE,
+    FOREIGN KEY (visit_id) REFERENCES visit(visit_id)
+);
+
++----------------+---------------+------+-----+---------+-------+
+| Field          | Type          | Null | Key | Default | Extra |
++----------------+---------------+------+-----+---------+-------+
+| bill_id        | int           | NO   | PRI | NULL    |       |
+| visit_id       | int           | YES  | MUL | NULL    |       |
+| total_amount   | decimal(10,2) | YES  |     | NULL    |       |
+| payment_status | varchar(20)   | YES  |     | NULL    |       |
+| bill_date      | date          | YES  |     | NULL    |       |
++----------------+---------------+------+-----+---------+-------+
+
+CREATE TABLE bill_item (
+    item_id INT PRIMARY KEY,
+    bill_id INT,
+    description VARCHAR(50),
+    amount DECIMAL(10,2),
+    FOREIGN KEY (bill_id) REFERENCES bill(bill_id)
+);
+
++-------------+---------------+------+-----+---------+-------+
+| Field       | Type          | Null | Key | Default | Extra |
++-------------+---------------+------+-----+---------+-------+
+| item_id     | int           | NO   | PRI | NULL    |       |
+| bill_id     | int           | YES  | MUL | NULL    |       |
+| description | varchar(50)   | YES  |     | NULL    |       |
+| amount      | decimal(10,2) | YES  |     | NULL    |       |
++-------------+---------------+------+-----+---------+-------+
+
+CREATE TABLE payment_transaction (
+    payment_id INT PRIMARY KEY,
+    bill_id INT,
+    payment_date DATE,
+    payment_mode VARCHAR(20),   -- CASH / CARD / UPI
+    amount DECIMAL(10,2),
+    FOREIGN KEY (bill_id) REFERENCES bill(bill_id)
+);
+
++--------------+---------------+------+-----+---------+-------+
+| Field        | Type          | Null | Key | Default | Extra |
++--------------+---------------+------+-----+---------+-------+
+| payment_id   | int           | NO   | PRI | NULL    |       |
+| bill_id      | int           | YES  | MUL | NULL    |       |
+| payment_date | date          | YES  |     | NULL    |       |
+| payment_mode | varchar(20)   | YES  |     | NULL    |       |
+| amount       | decimal(10,2) | YES  |     | NULL    |       |
++--------------+---------------+------+-----+---------+-------+
+
+INSERT INTO bill (bill_id, visit_id, total_amount, payment_status, bill_date)
+VALUES (1, 101, 0, 'UNPAID', CURDATE());
+
+mysql> select * from bill;
++---------+----------+--------------+----------------+------------+
+| bill_id | visit_id | total_amount | payment_status | bill_date  |
++---------+----------+--------------+----------------+------------+
+|       1 |      101 |         0.00 | UNPAID         | 2026-02-08 |
++---------+----------+--------------+----------------+------------+
+
+-- UC-5.1: Generate Bill for Visit
+
+INSERT INTO bill_item (item_id, bill_id, description, amount)
+VALUES
+(1, 1, 'Doctor Consultation', 500),
+(2, 1, 'Blood Test', 300),
+(3, 1, 'Medicine Charges', 200);
+
++---------+---------+---------------------+--------+
+| item_id | bill_id | description         | amount |
++---------+---------+---------------------+--------+
+|       1 |       1 | Doctor Consultation | 500.00 |
+|       2 |       1 | Blood Test          | 300.00 |
+|       3 |       1 | Medicine Charges    | 200.00 |
++---------+---------+---------------------+--------+
+
+UPDATE bill
+SET total_amount = (
+    SELECT SUM(amount)
+    FROM bill_item
+    WHERE bill_id = 1
+)
+WHERE bill_id = 1;
+
++---------+----------+--------------+----------------+------------+
+| bill_id | visit_id | total_amount | payment_status | bill_date  |
++---------+----------+--------------+----------------+------------+
+|       1 |      101 |      1000.00 | UNPAID         | 2026-02-08 |
++---------+----------+--------------+----------------+------------+
+
+-- UC-5.2: Record Payment (TRANSACTION)
+
+START TRANSACTION;
+
+UPDATE bill SET payment_status = 'PAID' WHERE bill_id = 1;
+
++---------+----------+--------------+----------------+------------+
+| bill_id | visit_id | total_amount | payment_status | bill_date  |
++---------+----------+--------------+----------------+------------+
+|       1 |      101 |      1000.00 | PAID           | 2026-02-08 |
++---------+----------+--------------+----------------+------------+
+
+INSERT INTO payment_transaction (payment_id, bill_id, payment_date, payment_mode, amount) VALUES
+(1, 1, CURDATE(), 'UPI', 1000);
+
++------------+---------+--------------+--------------+---------+
+| payment_id | bill_id | payment_date | payment_mode | amount  |
++------------+---------+--------------+--------------+---------+
+|          1 |       1 | 2026-02-08   | UPI          | 1000.00 |
++------------+---------+--------------+--------------+---------+
+
+COMMIT;
+
+-- UC-5.3: View Outstanding Bills
+
+SELECT p.patient_id, p.name, COUNT(b.bill_id) AS unpaid_bills, SUM(b.total_amount) AS total_due
+FROM bill b
+JOIN visit v ON b.visit_id = v.visit_id
+JOIN patient p ON v.patient_id = p.patient_id
+WHERE b.payment_status = 'UNPAID'
+GROUP BY p.patient_id, p.name;
+
+-- UC-5.4: Generate Revenue Report
+
+SELECT d.doctor_name, SUM(b.total_amount) AS total_revenue
+FROM bill b
+JOIN visit v ON b.visit_id = v.visit_id
+JOIN doctor d ON v.doctor_id = d.doctor_id
+WHERE b.payment_status = 'PAID'
+AND b.bill_date BETWEEN '2026-02-01' AND '2026-02-28'
+GROUP BY d.doctor_name
+HAVING SUM(b.total_amount) > 500;
+
++-------------+---------------+
+| doctor_name | total_revenue |
++-------------+---------------+
+| Yukti       |       1000.00 |
++-------------+---------------+
