@@ -660,7 +660,7 @@ BridgeLabz-Training/
 [Optional Class problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/optionalclass)
 [Stream problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/bl/streamapi)
 
----
+## Week 7: Solution Designing
 
 ### 📅 Day 37 – Java 8 Logical Questions and Design Principles & GoF Design Patterns
 **(Date: 31-Jan-2026)**
@@ -706,5 +706,35 @@ BridgeLabz-Training/
 
 ---
 
+## Week 8: MySQL and JDBC
+
+### 📅 Day 40 – MySQL Problems
+**(Date: 06-Feb-2026)**
+
+ - Practised `CRUD operations` by building a console-based Employee Management System to `add`, `view`, `update`, `delete`, and `search` employee records.
+- Learned transaction management by developing a Banking System with money transfers, balance checks, and transaction history.
+- Implemented advanced features in a Library Management System, including book inventory, student borrowing records, fine calculation, and multi-filter search.
+- Enhanced data handling skills through hands-on exercises covering basic to complex application scenarios.
+
+🔗**Code Link:** 
+👉 [MySql Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/gcr-codebase/MysqlJdbcPractice/src/com/mysql)
+
+---
+
+### 📅 Day 41 – Database Scenario-based Problems Practice
+**(Date: 07-Feb-2026)**
+
+- Practised multiple scenario-based questions to strengthen database concepts
+- `Patient Management` – Practised registering, updating, searching patients, and viewing visit history.
+- `Doctor Management` – Learned to add, assign specialities, view, and deactivate doctor profiles.
+- `Appointment Scheduling` – Practised booking, checking availability, cancelling/rescheduling, and viewing schedules.
+- `Visit Management & Medical Records` – Learned to record visits, add prescriptions, and view medical history.
+- `Billing & Payments` – Practised generating bills, recording payments, viewing outstanding bills, and generating revenue reports.
+- `System Administration` – Learned speciality management, database backup, and viewing audit logs.
+
+🔗**Code Link:** 
+👉 [Scenario Problems](https://github.com/Dishagujar26/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenario-based/ScenarioBasedPractice/src/com)
+
+---
 
 
