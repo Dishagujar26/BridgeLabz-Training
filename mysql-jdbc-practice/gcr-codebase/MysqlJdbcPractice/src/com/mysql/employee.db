@@ -1,0 +1,57 @@
+
+mysql> create table employee(emp_id int, emp_name varchar(20), emp_dept varchar(20), emp_salary decimal(10,2));
+Query OK, 0 rows affected (0.16 sec)
+
+mysql> desc employee;
++------------+---------------+------+-----+---------+-------+
+| Field      | Type          | Null | Key | Default | Extra |
++------------+---------------+------+-----+---------+-------+
+| emp_id     | int           | YES  |     | NULL    |       |
+| emp_name   | varchar(20)   | YES  |     | NULL    |       |
+| emp_dept   | varchar(20)   | YES  |     | NULL    |       |
+| emp_salary | decimal(10,2) | YES  |     | NULL    |       |
++------------+---------------+------+-----+---------+-------+
+
+mysql> insert into employee (emp_id, emp_name, emp_dept, emp_salary) values (1, 'Disha Gujar', 'IT', 750000);
+
+mysql> insert into employee (emp_id, emp_name, emp_dept, emp_salary) values (2, 'Shinchan Nohara', 'Marketing', 390000);
+
+mysql> select * from employee;
++--------+-----------------+-----------+------------+
+| emp_id | emp_name        | emp_dept  | emp_salary |
++--------+-----------------+-----------+------------+
+|      1 | Disha Gujar     | IT        |  750000.00 |
+|      2 | Shinchan Nohara | Marketing |  390000.00 |
++--------+-----------------+-----------+------------+
+
+mysql> update employee set emp_salary = emp_salary + 5000 where emp_id = 2;
+Query OK, 1 row affected
+Rows matched: 1  Changed: 1  Warnings: 0
+
++--------+-----------------+-----------+------------+
+| emp_id | emp_name        | emp_dept  | emp_salary |
++--------+-----------------+-----------+------------+
+|      1 | Disha Gujar     | IT        |  750000.00 |
+|      2 | Shinchan Nohara | Marketing |  395000.00 |
++--------+-----------------+-----------+------------+
+
+mysql> select * from employee where emp_name = 'Disha Gujar';
+
++--------+-------------+----------+------------+
+| emp_id | emp_name    | emp_dept | emp_salary |
++--------+-------------+----------+------------+
+|      1 | Disha Gujar | IT       |  750000.00 |
++--------+-------------+----------+------------+
+
+mysql> delete from employee where emp_id = 2;
+Query OK, 1 row affected 
+
+mysql> select * from employee;
++--------+-------------+----------+------------+
+| emp_id | emp_name    | emp_dept | emp_salary |
++--------+-------------+----------+------------+
+|      1 | Disha Gujar | IT       |  750000.00 |
++--------+-------------+----------+------------+
+
+
+
