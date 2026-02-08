@@ -1,0 +1,133 @@
+
+mysql> create table doctor(doctor_id int, doctor_name varchar(50), specialization varchar(20));
+mysql> alter table doctor add primary key(doctor_id);
+
+mysql> desc doctor;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| doctor_id      | int         | NO   | PRI | NULL    |       |
+| doctor_name    | varchar(50) | YES  |     | NULL    |       |
+| specialization | varchar(20) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+mysql> alter table doctor drop column specialization;
+mysql> ALTER TABLE doctor ADD specialty_id INT;
+mysql> alter table doctor add foreign key(specialty_id) references specialization(specialty_id);
+mysql> alter table doctor add contact varchar(20), add consultation_fee decimal(10,2);
+
+mysql> desc doctor;
++------------------+---------------+------+-----+---------+-------+
+| Field            | Type          | Null | Key | Default | Extra |
++------------------+---------------+------+-----+---------+-------+
+| doctor_id        | int           | NO   | PRI | NULL    |       |
+| doctor_name      | varchar(50)   | YES  |     | NULL    |       |
+| specialty_id     | int           | YES  | MUL | NULL    |       |
+| contact          | varchar(20)   | YES  |     | NULL    |       |
+| consultation_fee | decimal(10,2) | YES  |     | NULL    |       |
++------------------+---------------+------+-----+---------+-------+
+
+mysql> create table specialization(specialty_id int primary key, specialty_name varchar(20));
+
+mysql> desc specialization;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| specialty_id   | int         | NO   | PRI | NULL    |       |
+| specialty_name | varchar(20) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+-- UC-2.1: Add Doctor Profile
+
+mysql> insert into specialization (specialty_id, specialty_name) values (1, 'Cardiologist');
+mysql> insert into specialization (specialty_id, specialty_name) values (2, 'Orthodontist');
+
+mysql> select * from specialization;
++--------------+----------------+
+| specialty_id | specialty_name |
++--------------+----------------+
+|            1 | Cardiologist   |
+|            2 | Orthodontist   |
++--------------+----------------+
+
+mysql> insert into doctor (doctor_id, doctor_name, specialty_id, contact, consultation_fee) values (101, 'Disha', 1, '35647284', 50000);
+mysql> insert into doctor (doctor_id, doctor_name, specialty_id, contact, consultation_fee) values (102, 'Arya', 2, '98767284', 89000);
+mysql> insert into doctor (doctor_id, doctor_name, specialty_id, contact, consultation_fee) values (103, 'Yukti', 1, '65367284', 65000);
+mysql> insert into doctor (doctor_id, doctor_name, specialty_id, contact, consultation_fee) values (104, 'Rash', 2, '65362494', 87000);
+
+mysql> select * from doctor;
++-----------+-------------+--------------+----------+------------------+
+| doctor_id | doctor_name | specialty_id | contact  | consultation_fee |
++-----------+-------------+--------------+----------+------------------+
+|       101 | Disha       |            1 | 35647284 |         50000.00 |
+|       102 | Arya        |            2 | 98767284 |         89000.00 |
+|       103 | Yukti       |            1 | 65367284 |         65000.00 |
+|       104 | Rash        |            2 | 65362494 |         87000.00 |
++-----------+-------------+--------------+----------+------------------+
+
+-- UC-2.2: Assign / Update Doctor Specialty
+
+mysql> select * from specialization;
++--------------+----------------+
+| specialty_id | specialty_name |
++--------------+----------------+
+|            1 | Cardiologist   |
+|            2 | Orthodontist   |
++--------------+----------------+
+
+mysql> update doctor set specialty_id = 2 where doctor_id = 103;
+
+mysql> select * from doctor;
++-----------+-------------+--------------+----------+------------------+
+| doctor_id | doctor_name | specialty_id | contact  | consultation_fee |
++-----------+-------------+--------------+----------+------------------+
+|       101 | Disha       |            1 | 35647284 |         50000.00 |
+|       102 | Arya        |            2 | 98767284 |         89000.00 |
+|       103 | Yukti       |            2 | 65367284 |         65000.00 |
+|       104 | Rash        |            2 | 65362494 |         87000.00 |
++-----------+-------------+--------------+----------+------------------+
+
+-- UC-2.3: View Doctors by Specialty
+
+SELECT d.doctor_name, d.contact, d.consultation_fee
+FROM doctor d
+JOIN specialization s ON d.specialty_id = s.specialty_id
+WHERE s.specialty_name = 'Cardiology'
+
+-- UC-2.4: Deactivate Doctor Profile (Soft Delete)
+
+mysql> insert into appointment ( appointment_id,  doctor_id, patient_id,  appointment_date,  status) 
+values (1, 101, 102, '2026-02-10','Booked');
+mysql> insert into appointment ( appointment_id,  doctor_id, patient_id,  appointment_date,  status) 
+values (2, 101, 103, '2016-03-10','Booked');
+
+SELECT COUNT(*)
+FROM appointment
+WHERE doctor_id = 1;
+
+mysql> select Count(*) from appointment where doctor_id = 101;
++----------+
+| Count(*) |
++----------+
+|        2 |
++----------+
+
+mysql> select Count(*) from appointment where doctor_id = 102;
++----------+
+| Count(*) |
++----------+
+|        0 |
++----------+
+
+mysql> delete from doctor where doctor_id = 102;
+
+mysql> select * from doctor;
++-----------+-------------+--------------+----------+------------------+
+| doctor_id | doctor_name | specialty_id | contact  | consultation_fee |
++-----------+-------------+--------------+----------+------------------+
+|       101 | Disha       |            1 | 35647284 |         50000.00 |
+|       103 | Yukti       |            2 | 65367284 |         65000.00 |
+|       104 | Rash        |            2 | 65362494 |         87000.00 |
++-----------+-------------+--------------+----------+------------------+
+
+
