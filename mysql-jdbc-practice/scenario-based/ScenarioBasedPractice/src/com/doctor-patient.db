@@ -1,0 +1,105 @@
+mysql> create table doctor(doctor_id int, doctor_name varchar(50), specialization varchar(20));
+mysql> alter table patient add patient_id int PRIMARY KEY;
+
+mysql> desc patient;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| name        | varchar(50) | YES  |     | NULL    |       |
+| DOB         | varchar(50) | YES  |     | NULL    |       |
+| address     | varchar(50) | YES  |     | NULL    |       |
+| blood_group | varchar(20) | YES  |     | NULL    |       |
+| patient_id  | int         | NO   | PRI | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+mysql> create table doctor(doctor_id int, doctor_name varchar(50), specialization varchar(20));
+mysql> alter table doctor add primary key(doctor_id);
+
+mysql> desc doctor;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| doctor_id      | int         | NO   | PRI | NULL    |       |
+| doctor_name    | varchar(50) | YES  |     | NULL    |       |
+| specialization | varchar(20) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+mysql> CREATE TABLE appointment (
+    ->     appointment_id INT PRIMARY KEY,
+    ->     doctor_id INT,
+    ->     patient_id INT,
+    ->     appointment_date DATE,
+    ->     status VARCHAR(20),
+    ->     FOREIGN KEY (doctor_id) REFERENCES doctor(doctor_id),
+    ->     FOREIGN KEY (patient_id) REFERENCES patient(patient_id)
+    -> );
+    
+mysql> desc appointment;
++------------------+-------------+------+-----+---------+-------+
+| Field            | Type        | Null | Key | Default | Extra |
++------------------+-------------+------+-----+---------+-------+
+| appointment_id   | int         | NO   | PRI | NULL    |       |
+| doctor_id        | int         | YES  | MUL | NULL    |       |
+| patient_id       | int         | YES  | MUL | NULL    |       |
+| appointment_date | date        | YES  |     | NULL    |       |
+| status           | varchar(20) | YES  |     | NULL    |       |
++------------------+-------------+------+-----+---------+-------+
+        
+mysql> create table visit(visit_id int primary key, appointment_id int, diagnosis varchar(20), visit_date varchar(20));
+
+mysql> desc visit;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| visit_id       | int         | NO   | PRI | NULL    |       |
+| appointment_id | int         | YES  |     | NULL    |       |
+| diagnosis      | varchar(20) | YES  |     | NULL    |       |
+| visit_date     | varchar(20) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+-- UC-1.1: Register New Patient
+
+mysql> insert into patient(name, DOB, address, blood_group, patient_id) values ('Disha Gujar', '26/10/2004', 'Indrapuri', 'O-', 101);
+mysql> insert into patient(name, DOB, address, blood_group, patient_id) values ('Shinchan Nohara', '26/04/1998', 'Mumbai', 'AB-', 102);
+mysql> insert into patient(name, DOB, address, blood_group, patient_id) values ('Atess', '16/10/2025', 'Istanbul', 'A-', 103);
+
+mysql> select * from patient;
++-----------------+------------+-----------+-------------+------------+
+| name            | DOB        | address   | blood_group | patient_id |
++-----------------+------------+-----------+-------------+------------+
+| Disha Gujar     | 26/10/2004 | Indrapuri | O-          |        101 |
+| Shinchan Nohara | 26/04/1998 | Mumbai    | AB-         |        102 |
+| Atess           | 16/10/2025 | Istanbul  | A+          |        103 |
++-----------------+------------+-----------+-------------+------------+
+
+--UC-1.3: Search Patient Records
+
+mysql> update patient set name = 'Doremon' where name = 'Shinchan Nohara';
+mysql> update patient set blood_group = 'AB+' where name = 'Atess';
+
+mysql> select * from patient;
++-------------+------------+-----------+-------------+------------+
+| name        | DOB        | address   | blood_group | patient_id |
++-------------+------------+-----------+-------------+------------+
+| Disha Gujar | 26/10/2004 | Indrapuri | O-          |        101 |
+| Doremon     | 26/04/1998 | Mumbai    | AB-         |        102 |
+| Atess       | 16/10/2025 | Istanbul  | AB+         |        103 |
++-------------+------------+-----------+-------------+------------+
+
+--UC-1.3: Search Patient Records
+
+mysql> select * from patient where patient_id = 102;
++---------+------------+---------+-------------+------------+
+| name    | DOB        | address | blood_group | patient_id |
++---------+------------+---------+-------------+------------+
+| Doremon | 26/04/1998 | Mumbai  | AB-         |        102 |
++---------+------------+---------+-------------+------------+
+
+--UC-1.4: View Patient Visit History
+mysql> SELECT v.visit_date, d.doctor_name, v.diagnosis
+    -> FROM patient p
+    -> JOIN appointment a ON p.patient_id = a.patient_id
+    -> JOIN visit v ON a.appointment_id = v.appointment_id
+    -> JOIN doctor d ON a.doctor_id = d.doctor_id
+    -> WHERE p.patient_id = 1
+    -> ORDER BY v.visit_date;
