@@ -1,0 +1,78 @@
+mysql> desc visit;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| visit_id       | int         | NO   | PRI | NULL    |       |
+| appointment_id | int         | YES  | MUL | NULL    |       |
+| diagnosis      | varchar(20) | YES  |     | NULL    |       |
+| visit_date     | varchar(20) | YES  |     | NULL    |       |
+| patient_id     | int         | YES  | MUL | NULL    |       |
+| doctor_id      | int         | YES  | MUL | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+mysql> insert into visit (visit_id, appointment_id, diagnosis, visit_date, patient_id, doctor_id)values (101,1, 'Viral Fever', Now(), 101, 103);
+
+mysql> select * from visit;
++----------+----------------+-------------+---------------------+------------+-----------+
+| visit_id | appointment_id | diagnosis   | visit_date          | patient_id | doctor_id |
++----------+----------------+-------------+---------------------+------------+-----------+
+|      101 |              1 | Viral Fever | 2026-02-08 20:16:02 |        101 |       103 |
++----------+----------------+-------------+---------------------+------------+-----------+
+
+mysql> update visit set appointment_id = 3 where visit_id = 101;
+
+mysql> select * from visit;
++----------+----------------+-------------+---------------------+------------+-----------+
+| visit_id | appointment_id | diagnosis   | visit_date          | patient_id | doctor_id |
++----------+----------------+-------------+---------------------+------------+-----------+
+|      101 |              3 | Viral Fever | 2026-02-08 20:16:02 |        101 |       103 |
++----------+----------------+-------------+---------------------+------------+-----------+
+
+mysql>  update appointment set status = 'COMPLETED' where appointment_id = 3;
+
+mysql> select * from appointment;
++----------------+-----------+------------+------------------+-----------+
+| appointment_id | doctor_id | patient_id | appointment_date | status    |
++----------------+-----------+------------+------------------+-----------+
+|              1 |       101 |        102 | 2026-02-10       | Booked    |
+|              2 |       101 |        103 | 2016-03-10       | Booked    |
+|              3 |       103 |        101 | 2026-02-15       | COMPLETED |
+|              4 |       103 |        102 | 2026-03-10       | SCHEDULED |
+|              5 |       103 |        103 | 2026-05-15       | SCHEDULED |
++----------------+-----------+------------+------------------+-----------+
+
+mysql> CREATE TABLE prescription (
+    ->     prescription_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     visit_id INT NOT NULL,
+    ->     medicine_name VARCHAR(100),
+    ->     dosage VARCHAR(50),
+    ->     duration VARCHAR(50),
+    ->
+    ->     FOREIGN KEY (visit_id)
+    ->         REFERENCES visit(visit_id)
+    -> );
+    
+mysql> desc prescription;
++-----------------+--------------+------+-----+---------+----------------+
+| Field           | Type         | Null | Key | Default | Extra          |
++-----------------+--------------+------+-----+---------+----------------+
+| prescription_id | int          | NO   | PRI | NULL    | auto_increment |
+| visit_id        | int          | NO   | MUL | NULL    |                |
+| medicine_name   | varchar(100) | YES  |     | NULL    |                |
+| dosage          | varchar(50)  | YES  |     | NULL    |                |
+| duration        | varchar(50)  | YES  |     | NULL    |                |
++-----------------+--------------+------+-----+---------+----------------+
+    
+mysql> INSERT INTO prescription (visit_id, medicine_name, dosage, duration)
+    -> VALUES
+    -> (101, 'Paracetamol', '500mg', '5 days'),
+    -> (101, 'Cetirizine', '10mg', '3 days'),
+    -> (101, 'ORS', 'After meals', '2 days');
+
++-----------------+----------+---------------+-------------+----------+
+| prescription_id | visit_id | medicine_name | dosage      | duration |
++-----------------+----------+---------------+-------------+----------+
+|               4 |      101 | Paracetamol   | 500mg       | 5 days   |
+|               5 |      101 | Cetirizine    | 10mg        | 3 days   |
+|               6 |      101 | ORS           | After meals | 2 days   |
++-----------------+----------+---------------+-------------+----------+
