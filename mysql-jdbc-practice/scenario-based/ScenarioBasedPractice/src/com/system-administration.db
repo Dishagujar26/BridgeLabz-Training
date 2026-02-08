@@ -1,0 +1,71 @@
+CREATE TABLE specialty (specialty_id INT PRIMARY KEY, 
+specialty_name VARCHAR(50));
+
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| specialty_id   | int         | NO   | PRI | NULL    |       |
+| specialty_name | varchar(50) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+-- UC-6.1: Manage Specialty Lookup (CRUD)
+
+INSERT INTO specialty (specialty_id, specialty_name)
+VALUES (1, 'Cardiology');
+
+mysql> select * from specialty;
++--------------+----------------+
+| specialty_id | specialty_name |
++--------------+----------------+
+|            1 | Cardiology     |
++--------------+----------------+
+
+UPDATE specialty SET specialty_name = 'Neurology'
+WHERE specialty_id = 1;
+
++--------------+----------------+
+| specialty_id | specialty_name |
++--------------+----------------+
+|            1 | Neurology      |
++--------------+----------------+
+
+CREATE TABLE audit_log (audit_id INT PRIMARY KEY, action_type VARCHAR(10),table_name VARCHAR(50),
+    record_id INT, user_name VARCHAR(50), action_time TIMESTAMP );
+
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| audit_id    | int         | NO   | PRI | NULL    |       |
+| action_type | varchar(10) | YES  |     | NULL    |       |
+| table_name  | varchar(50) | YES  |     | NULL    |       |
+| record_id   | int         | YES  |     | NULL    |       |
+| user_name   | varchar(50) | YES  |     | NULL    |       |
+| action_time | timestamp   | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+CREATE TRIGGER doctor_insert_audit AFTER INSERT ON doctor FOR EACH ROW
+INSERT INTO audit_log VALUES 
+(NULL, 'INSERT', 'doctor', NEW.doctor_id, USER(),NOW());
+
+mysql> INSERT INTO doctor (doctor_id, doctor_name, specialty_id, contact, consultation_fee, is_active) VALUES
+ (106, 'Dr Sharma', 2, '8887776665', 75000, TRUE);
+ 
+ mysql> INSERT INTO doctor (doctor_id, doctor_name, specialty_id, contact, consultation_fee, is_active) VALUES
+ (105, 'Dr Mehta', 1, '9998887776', 90000, TRUE);
+ 
+ mysql> select * from audit_log;
++----------+-------------+------------+-----------+----------------+---------------------+
+| audit_id | action_type | table_name | record_id | user_name      | action_time         |
++----------+-------------+------------+-----------+----------------+---------------------+
+|        1 | INSERT      | doctor     |       105 | root@localhost | 2026-02-08 23:02:23 |
+|        2 | INSERT      | doctor     |       106 | root@localhost | 2026-02-08 23:03:32 |
++----------+-------------+------------+-----------+----------------+---------------------+
+
+-- UC-6.3: View System Audit Logs
+
+SELECT *
+FROM audit_log
+WHERE user_name = 'admin'
+AND table_name = 'doctor'
+AND action_time BETWEEN '2026-02-01' AND '2026-02-28'
+ORDER BY action_time DESC;
