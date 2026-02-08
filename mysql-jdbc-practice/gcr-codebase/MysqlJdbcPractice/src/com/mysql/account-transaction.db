@@ -1,0 +1,63 @@
+
+mysql> CREATE TABLE accounts (account_id INT PRIMARY KEY, customer_name VARCHAR(50), balance DECIMAL(10,2));
+
+mysql> desc accounts;
++---------------+---------------+------+-----+---------+-------+
+| Field         | Type          | Null | Key | Default | Extra |
++---------------+---------------+------+-----+---------+-------+
+| account_id    | int           | NO   | PRI | NULL    |       |
+| customer_name | varchar(50)   | YES  |     | NULL    |       |
+| balance       | decimal(10,2) | YES  |     | NULL    |       |
++---------------+---------------+------+-----+---------+-------+
+
+mysql> CREATE TABLE transactions (txn_id INT AUTO_INCREMENT PRIMARY KEY, from_account INT, to_account INT, amount DECIMAL(10,2), txn_type VARCHAR(20), txn_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+mysql> desc transactions;
++--------------+---------------+------+-----+-------------------+-------------------+
+| Field        | Type          | Null | Key | Default           | Extra             |
++--------------+---------------+------+-----+-------------------+-------------------+
+| txn_id       | int           | NO   | PRI | NULL              | auto_increment    |
+| from_account | int           | YES  |     | NULL              |                   |
+| to_account   | int           | YES  |     | NULL              |                   |
+| amount       | decimal(10,2) | YES  |     | NULL              |                   |
+| txn_type     | varchar(20)   | YES  |     | NULL              |                   |
+| txn_time     | timestamp     | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++--------------+---------------+------+-----+-------------------+-------------------+
+
+--Check the balance before transaction 
+
+mysql> select * from accounts;
++------------+---------------+----------+
+| account_id | customer_name | balance  |
++------------+---------------+----------+
+|        101 | Disha Gujar   | 50000.00 |
+|        102 | Shinchan      | 35000.00 |
+|        103 | Bug           | 23000.00 |
++------------+---------------+----------+
+
+--Deduct from sender
+mysql> UPDATE accounts SET balance = balance - 5000 WHERE account_id = 101 AND balance >= 5000;
+
+--Add to receiver
+mysql> UPDATE accounts SET balance = balance + 5000 WHERE account_id = 102;
+
+mysql> select * from accounts;
++------------+---------------+----------+
+| account_id | customer_name | balance  |
++------------+---------------+----------+
+|        101 | Disha Gujar   | 45000.00 |
+|        102 | Shinchan      | 40000.00 |
+|        103 | Bug           | 23000.00 |
++------------+---------------+----------+
+
+-- Record transaction
+mysql> INSERT INTO transactions (from_account, to_account, amount, txn_type) VALUES (101, 102, 5000, 'TRANSFER');
+
+mysql> select * from transactions;
++--------+--------------+------------+---------+----------+---------------------+
+| txn_id | from_account | to_account | amount  | txn_type | txn_time            |
++--------+--------------+------------+---------+----------+---------------------+
+|      1 |          101 |        102 | 5000.00 | TRANSFER | 2026-02-06 20:47:39 |
++--------+--------------+------------+---------+----------+---------------------+
+
+mysql> commit;
