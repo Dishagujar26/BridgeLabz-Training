@@ -704,8 +704,6 @@ BridgeLabz-Training/
 **🔗Code Link:**
 [Code Link](https://github.com/Dishagujar26/BridgeLabz-Training/tree/java-designpattern-practice/java-designpattern-practice/scenario-based/ScenarioProblems/src/com/banktransactionmultithreading)
 
----
-
 ## Week 8: MySQL and JDBC
 
 ### 📅 Day 40 – MySQL Problems
