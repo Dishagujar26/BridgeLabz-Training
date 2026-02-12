@@ -29,7 +29,7 @@
 
 ---
 
-### 📅 Day 3 – Database Scenario-based Problems Practice
+### 📅 Day 3 – JDBC Problems Practice
 **(Date: 09-Feb-2026)**
 
  - Exercise 1: Simple CRUD Application (Employee Management System) – Practised Add Employee, View All Employees, Update Salary, Delete Employee, and Search by Name using JDBC `Statement`, `PreparedStatement`, and `ResultSet`.
